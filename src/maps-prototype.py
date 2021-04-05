@@ -9,7 +9,7 @@ def pesquisaPorTexto(query):
     url = '''
 https://maps.googleapis.com/maps/api/place/textsearch/json?
 key=%s&
-query=%s&pagetoken=1
+query=%s
 ''' % (api_key, query)
     url = url.replace('\n', '')
     print("Acessando o endereço: " + url)
@@ -18,6 +18,8 @@ query=%s&pagetoken=1
     x = r.json()
     y = x["results"]
     print("Query Pesquisada:" + query + '\n')
+    next_page = x["next_page_token"]
+    print(next_page)
     print("Escolas encontradas: " + str(len(y))+'\n')
     return y
 
@@ -53,8 +55,8 @@ query = input('Selecione uma Pesquisa de Query\n')
 y = pesquisaPorTexto(query)
 
 print("Query Pesquisada:" + query + '\n')
-data = {}
 
+data = {}
 for i in range((len(y))):
     data[str(i)] = {}
     data[str(i)] = inserirNovaEscola(data[str(i)], y[i])
@@ -63,7 +65,7 @@ json_data = json.dumps(data).encode('utf8')
 #print(json_data)
 pdObj = pd.read_json(json_data, orient='index', encoding='utf8')
 #print(pdObj)
-csvData = pdObj.to_csv('%s.csv'%query ,index=False)
+csvData = pdObj.to_csv('output/%s.csv'%query ,index=False)
 
 
 # Referências:
