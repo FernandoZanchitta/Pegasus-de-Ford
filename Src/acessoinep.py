@@ -1,6 +1,5 @@
 from selenium import webdriver
 import time
-import sys
 
 search_string = input("Input da pesquisa: ")
 search_string = search_string.replace(' ', '+')
