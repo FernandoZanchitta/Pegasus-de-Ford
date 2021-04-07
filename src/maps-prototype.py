@@ -3,8 +3,7 @@ import requests, json
 import pandas as pd
 
 
-def pesquisaPorTexto(query):
-    api_key = 'AIzaSyCm6GpcJ806Z46MggMMKHSoCfTzEW4z7K0'
+def pesquisaportexto(query, api_key):
     query = query.replace(' ', '+')
     url = '''
 https://maps.googleapis.com/maps/api/place/textsearch/json?
@@ -19,12 +18,10 @@ query=%s
     y = x["results"]
     print("Query Pesquisada:" + query + '\n')
     next_page = x["next_page_token"]
-    print(next_page)
     print("Escolas encontradas: " + str(len(y))+'\n')
-    return y
+    return y, next_page
 
-def pesquisaDetalhada(school_json):
-    api_key = 'AIzaSyCm6GpcJ806Z46MggMMKHSoCfTzEW4z7K0'
+def pesquisadetalhada(school_json,api_key):
     # realizamos uma pesquisa detalhada para cada elemento encontrado na pesquisa por texto
     url_details = ''' 
 https://maps.googleapis.com/maps/api/place/details/json?
@@ -37,9 +34,9 @@ key=%s
     z = x['result']
     return z
 
-def inserirNovaEscola(data, school_json):
+def inserirnovaescola(data, school_json,api_key):
     # chamamos a pesquisa detalhada e inserimos as informações que precisamos da escola lá dentro
-    z = pesquisaDetalhada(school_json)
+    z = pesquisadetalhada(school_json,api_key)
     data['place_id'] = school_json['place_id'] if 'place_id' in school_json else ''
     data['name'] = school_json['name'] if 'name' in y[i] else ''
     data['formatted_address'] = school_json['formatted_address'] if 'formatted_address' in school_json else ''
@@ -47,19 +44,39 @@ def inserirNovaEscola(data, school_json):
     data['formatted_phone_number'] = z['formatted_phone_number'] if 'formatted_phone_number' in z else ''
     return data
 
+def pesquisanextpage(next_page,api_key):
+    url = '''
+https://maps.googleapis.com/maps/api/place/textsearch/json?
+pagetoken=%s&key=%s
+''' % (next_page, api_key)
+    url = url.replace('\n', '')
+    print("Acessando o endereço: " + url)
+
+    r = requests.get(url)
+    x = r.json()
+    y = x["results"]
+    print("Query Pesquisada:" + query + '\n')
+    next_page = x["next_page_token"] if "next_page_token" in x else ""
+    print("Escolas encontradas: " + str(len(y)) + '\n')
+    return y, next_page
+
 
 api_key = 'AIzaSyCm6GpcJ806Z46MggMMKHSoCfTzEW4z7K0'
 
 #query = 'Escolas na Copacabana, Rio de janeiro'
 query = input('Selecione uma Pesquisa de Query\n')
-y = pesquisaPorTexto(query)
-
+y, next_page = pesquisaportexto(query,api_key)
 print("Query Pesquisada:" + query + '\n')
+
+while next_page!= "":
+    aux, next_page = pesquisanextpage(next_page,api_key)
+    print(aux)
+    y = y + aux
 
 data = {}
 for i in range((len(y))):
     data[str(i)] = {}
-    data[str(i)] = inserirNovaEscola(data[str(i)], y[i])
+    data[str(i)] = inserirnovaescola(data[str(i)], y[i],api_key)
 
 json_data = json.dumps(data).encode('utf8')
 #print(json_data)
