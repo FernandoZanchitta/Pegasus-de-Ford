@@ -1,6 +1,7 @@
 # coding: utf-8
 import requests, json
 import pandas as pd
+import time
 
 
 def pesquisaportexto(query, api_key):
@@ -45,6 +46,7 @@ def inserirnovaescola(data, school_json,api_key):
     return data
 
 def pesquisanextpage(next_page,api_key):
+    time.sleep(1)
     url = '''
 https://maps.googleapis.com/maps/api/place/textsearch/json?
 pagetoken=%s&key=%s
