@@ -72,7 +72,6 @@ print("Query Pesquisada:" + query + '\n')
 
 while next_page!= "":
     aux, next_page = pesquisanextpage(next_page,api_key)
-    print(aux)
     y = y + aux
 
 data = {}
