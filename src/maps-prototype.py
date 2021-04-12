@@ -2,6 +2,8 @@
 import requests, json
 import pandas as pd
 import time
+from acessoinep import acessoinep
+from acessoinep import ExitDriver
 
 
 def pesquisaportexto(query, api_key):
@@ -36,6 +38,7 @@ key=%s
     return z
 
 def inserirnovaescola(data, school_json,api_key):
+    print("Inserindo nova escola:")
     # chamamos a pesquisa detalhada e inserimos as informações que precisamos da escola lá dentro
     z = pesquisadetalhada(school_json,api_key)
     data['place_id'] = school_json['place_id'] if 'place_id' in school_json else ''
@@ -43,21 +46,25 @@ def inserirnovaescola(data, school_json,api_key):
     data['formatted_address'] = school_json['formatted_address'] if 'formatted_address' in school_json else ''
     data['website'] = z['website'] if 'website' in z else ''
     data['formatted_phone_number'] = z['formatted_phone_number'] if 'formatted_phone_number' in z else ''
+    print("Nome: "+ data['name'])
+    print("Endereço completo: "+ data['formatted_address'])
+    print("Cidade: "+ data['formatted_address'].split("-")[1].split(",")[1])
+    inep, cidade = acessoinep(data['name'],data['formatted_address'].split("-")[1].split(",")[1])
+    data['Inep'] = inep
+    data['city'] = cidade
     return data
 
 def pesquisanextpage(next_page,api_key):
-    time.sleep(1)
+    time.sleep(0.5)
     url = '''
 https://maps.googleapis.com/maps/api/place/textsearch/json?
 pagetoken=%s&key=%s
 ''' % (next_page, api_key)
     url = url.replace('\n', '')
     print("Acessando o endereço: " + url)
-
     r = requests.get(url)
     x = r.json()
     y = x["results"]
-    print("Query Pesquisada:" + query + '\n')
     next_page = x["next_page_token"] if "next_page_token" in x else ""
     print("Escolas encontradas: " + str(len(y)) + '\n')
     return y, next_page
@@ -75,6 +82,7 @@ while next_page!= "":
     y = y + aux
 
 data = {}
+print("Total de escolas encontradas: "+ str(len(y)))
 for i in range((len(y))):
     data[str(i)] = {}
     data[str(i)] = inserirnovaescola(data[str(i)], y[i],api_key)
@@ -84,6 +92,7 @@ json_data = json.dumps(data).encode('utf8')
 pdObj = pd.read_json(json_data, orient='index', encoding='utf8')
 #print(pdObj)
 csvData = pdObj.to_csv('output/%s.csv'%query ,index=False)
+ExitDriver()
 
 
 # Referências:
