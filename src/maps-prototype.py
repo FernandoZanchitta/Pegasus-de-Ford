@@ -41,21 +41,24 @@ def inserirnovaescola(data, school_json,api_key):
     print("Inserindo nova escola:")
     # chamamos a pesquisa detalhada e inserimos as informações que precisamos da escola lá dentro
     z = pesquisadetalhada(school_json,api_key)
+    #print(z)
+
     data['place_id'] = school_json['place_id'] if 'place_id' in school_json else ''
     data['name'] = school_json['name'] if 'name' in y[i] else ''
     data['formatted_address'] = school_json['formatted_address'] if 'formatted_address' in school_json else ''
     data['website'] = z['website'] if 'website' in z else ''
     data['formatted_phone_number'] = z['formatted_phone_number'] if 'formatted_phone_number' in z else ''
-    print("Nome: "+ data['name'])
-    print("Endereço completo: "+ data['formatted_address'])
-    print("Cidade: "+ data['formatted_address'].split("-")[1].split(",")[1])
-    inep, cidade = acessoinep(data['name'],data['formatted_address'].split("-")[1].split(",")[1])
+    #print("Nome: "+ data['name'])
+    #print("Endereço completo: "+ data['formatted_address'])
+    #print("Cidade: "+ data['formatted_address'].split(",")[2])
+    inep, cidade, qedu_url = acessoinep(data['name'],data['formatted_address'].split(",")[2].split("-")[0])
     data['Inep'] = inep
     data['city'] = cidade
+    data['qedu_url'] = qedu_url
     return data
 
 def pesquisanextpage(next_page,api_key):
-    time.sleep(0.5)
+    time.sleep(2)
     url = '''
 https://maps.googleapis.com/maps/api/place/textsearch/json?
 pagetoken=%s&key=%s
@@ -78,7 +81,7 @@ y, next_page = pesquisaportexto(query,api_key)
 print("Query Pesquisada:" + query + '\n')
 
 while next_page!= "":
-    aux, next_page = pesquisanextpage(next_page,api_key)
+    aux,next_page = pesquisanextpage(next_page,api_key)
     y = y + aux
 
 data = {}
