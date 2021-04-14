@@ -1,6 +1,7 @@
 from selenium import webdriver
 from selenium.webdriver.common.action_chains import ActionChains
 from selenium.webdriver.common.keys import Keys
+import re
 import time
 
 # search_string = search_string
@@ -83,6 +84,12 @@ def delete_cache():
     time.sleep(5) # wait some time to finish
     driver.close() # close this tab
     driver.switch_to.window(driver.window_handles[0]) # switch back
+def checarPalavra(url,word):
+    driver.get(url = url)
+    src = driver.page_source
+    text_found = re.search(r+word, src)
+    self.assertNotEqual(text_found, None)
+
 PATH = "/Users/FernandoZanchitta/Documents/chromedriver"
 driver = webdriver.Chrome(PATH)
 driver.delete_all_cookies()

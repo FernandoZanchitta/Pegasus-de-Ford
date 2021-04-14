@@ -55,10 +55,12 @@ def inserirnovaescola(data, school_json,api_key):
     data['Inep'] = inep
     data['city'] = cidade
     data['qedu_url'] = qedu_url
+    #sistemaEnsino = checarSistemaEnsino(data['website']) if data['website'] != '' else ''
+    #data['Sistema de Ensino'] = sistemaEnsino
     return data
 
 def pesquisanextpage(next_page,api_key):
-    time.sleep(2)
+    time.sleep(0.5)
     url = '''
 https://maps.googleapis.com/maps/api/place/textsearch/json?
 pagetoken=%s&key=%s
