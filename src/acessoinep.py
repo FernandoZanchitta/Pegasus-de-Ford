@@ -35,7 +35,6 @@ def pesquisa_google(escola,cidade):
     elems = driver.find_elements_by_css_selector(".yuRUbf [href]")
     links = [elem.get_attribute('href') for elem in elems]
     qedu_url = ""
-    print("\n\n\n")
     for link in links:
         print(link)
         if "http://qedu.org.br/escola/" in link:
@@ -65,30 +64,57 @@ def pesquisa_google(escola,cidade):
 
     return qedu_url
 # driver.exit(driver)
+def checarSistemaEnsino(url):
+    if url != "":
+        driver.get(url=url)
+        print("Acessando o link:"+ url)
+        src = driver.page_source
+        textfoundPoli = re.search(r'poliedro|Poliedro|POLIEDRO|Sistema Poliedro|SISTEMA POLIEDRO', src)
+        textfoundBili = re.search(r'Bilíngue|bilíngue|Bilingue|BILINGUE', src)
+        textfoundBernou = re.search(r'Bernoulli|bernoulli|BERNOULLI', src)
+        textfoundAri = re.search(r'Ari de Sá|Ari|ari de Sá|Ari de Sa|Plataforma SAS', src)
+        textfoundAnglo = re.search(r'Sistema Anglo|anglo|ANGLO|Anglo', src)
+        textfoundEtapa = re.search(r'Etapa|Sistema Etapa|Etapa Sistema', src)
+        textfoundCOC = re.search(r'Sistema COC|Ensino COC|Colegio COC', src)
+        sistemaEnsino = ''
+        if (textfoundPoli != None):
+            sistemaEnsino = 'Poliedro'
+        if (textfoundBili != None):
+            sistemaEnsino = sistemaEnsino + ';' + 'Bilíngue' if sistemaEnsino != '' else 'Bilíngue'
+        if (textfoundBernou != None):
+            sistemaEnsino = sistemaEnsino + ';' + 'Bernoulli' if sistemaEnsino != '' else 'Bernoulli'
+        if (textfoundAri != None):
+            sistemaEnsino = sistemaEnsino + ';' + 'Ari de Sá' if sistemaEnsino != '' else 'Ari de Sá'
+        if (textfoundAnglo != None):
+            sistemaEnsino = sistemaEnsino + ';' + 'Anglo' if sistemaEnsino != '' else 'Anglo'
+        if (textfoundEtapa != None):
+            sistemaEnsino = sistemaEnsino + ';' + 'Etapa' if sistemaEnsino != '' else 'Etapa'
+        if (textfoundCOC != None):
+            sistemaEnsino = sistemaEnsino + ';' + 'COC' if sistemaEnsino != '' else 'COC'
+        print("Sistema de Ensino: " + sistemaEnsino)
+        return sistemaEnsino
+    else:
+        return ""
 def ExitDriver():
     driver.close()
 def delete_cache():
     driver.execute_script("window.open('');")
-    time.sleep(2)
+    time.sleep(1)
     driver.switch_to.window(driver.window_handles[-1])
-    time.sleep(2)
+    time.sleep(1)
     driver.get('chrome://settings/clearBrowserData') # for old chromedriver versions use cleardriverData
-    time.sleep(2)
+    time.sleep(1)
     actions = ActionChains(driver)
     actions.send_keys(Keys.TAB * 3 + Keys.DOWN * 3) # send right combination
     actions.perform()
-    time.sleep(2)
+    time.sleep(1)
     actions = ActionChains(driver)
     actions.send_keys(Keys.TAB * 4 + Keys.ENTER) # confirm
     actions.perform()
-    time.sleep(5) # wait some time to finish
+    time.sleep(3) # wait some time to finish
     driver.close() # close this tab
     driver.switch_to.window(driver.window_handles[0]) # switch back
-def checarPalavra(url,word):
-    driver.get(url = url)
-    src = driver.page_source
-    text_found = re.search(r+word, src)
-    self.assertNotEqual(text_found, None)
+
 
 PATH = "/Users/FernandoZanchitta/Documents/chromedriver"
 driver = webdriver.Chrome(PATH)

@@ -4,7 +4,7 @@ import pandas as pd
 import time
 from acessoinep import acessoinep
 from acessoinep import ExitDriver
-
+from acessoinep import checarSistemaEnsino
 
 def pesquisaportexto(query, api_key):
     query = query.replace(' ', '+')
@@ -20,7 +20,7 @@ query=%s
     x = r.json()
     y = x["results"]
     print("Query Pesquisada:" + query + '\n')
-    next_page = x["next_page_token"]
+    next_page = x["next_page_token"] if "next_page_token" in x else ""
     print("Escolas encontradas: " + str(len(y))+'\n')
     return y, next_page
 
@@ -38,13 +38,13 @@ key=%s
     return z
 
 def inserirnovaescola(data, school_json,api_key):
-    print("Inserindo nova escola:")
+    print("\n\nInserindo nova escola:")
     # chamamos a pesquisa detalhada e inserimos as informações que precisamos da escola lá dentro
     z = pesquisadetalhada(school_json,api_key)
     #print(z)
 
     data['place_id'] = school_json['place_id'] if 'place_id' in school_json else ''
-    data['name'] = school_json['name'] if 'name' in y[i] else ''
+    data['name'] = school_json['name'] if 'name' in school_json else ''
     data['formatted_address'] = school_json['formatted_address'] if 'formatted_address' in school_json else ''
     data['website'] = z['website'] if 'website' in z else ''
     data['formatted_phone_number'] = z['formatted_phone_number'] if 'formatted_phone_number' in z else ''
@@ -55,12 +55,11 @@ def inserirnovaescola(data, school_json,api_key):
     data['Inep'] = inep
     data['city'] = cidade
     data['qedu_url'] = qedu_url
-    #sistemaEnsino = checarSistemaEnsino(data['website']) if data['website'] != '' else ''
-    #data['Sistema de Ensino'] = sistemaEnsino
+    data['Sistema de Ensino'] = checarSistemaEnsino(data['website'])
     return data
 
 def pesquisanextpage(next_page,api_key):
-    time.sleep(0.5)
+    time.sleep(2)
     url = '''
 https://maps.googleapis.com/maps/api/place/textsearch/json?
 pagetoken=%s&key=%s

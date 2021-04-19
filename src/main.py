@@ -3,17 +3,17 @@ import re
 def checarPalavra(url):
     driver.get(url = url)
     src = driver.page_source
-    text_found = re.search(r'poliedro|Poliedro|POLIEDRO|Sistema Poliedro|SISTEMA POLIEDRO', src)
+    text_found1= re.search(r'poliedro|Poliedro|POLIEDRO|Sistema Poliedro|SISTEMA POLIEDRO', src)
+    text_found2 = re.search(r'Bilíngue|bilíngue|Bilingue|BILINGUE', src)
+    text_found3 = re.search(r'Bernoulli|bernoulli|BERNOULLI|', src)
     sistemaEnsino = ''
-    if(text_found != None):
+    if(text_found1 != None):
         sistemaEnsino = 'Poliedro'
-    text_found = re.search(r'Bilíngue|bilíngue|Bilingue|BILINGUE', src)
-    if (text_found != None):
+    if (text_found2 != None):
         sistemaEnsino = sistemaEnsino+';'+'Bilíngue' if sistemaEnsino != '' else 'Bilíngue'
-    text_found = re.search(r'Objetivo|objetivo|OBJETIVO', src)
-    if (text_found != None):
-        sistemaEnsino = sistemaEnsino + ';' + 'Objetivo' if sistemaEnsino != '' else 'Objetivo'
-    print(sistemaEnsino)
+    if (text_found3 != None):
+        sistemaEnsino = sistemaEnsino + ';' + 'Bernoulli' if sistemaEnsino != '' else 'Bernoulli'
+    print("Sistema de Ensino: "+ sistemaEnsino)
     return sistemaEnsino
 
 PATH = "/Users/FernandoZanchitta/Documents/chromedriver"
