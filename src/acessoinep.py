@@ -66,16 +66,22 @@ def pesquisa_google(escola,cidade):
 # driver.exit(driver)
 def checarSistemaEnsino(url):
     if url != "":
-        driver.get(url=url)
-        print("Acessando o link:"+ url)
+        print("Acessando o link:" + url)
+        try:
+            driver.get(url = url)
+        except:
+            out = "Pagedown"
+            return out
         src = driver.page_source
-        textfoundPoli = re.search(r'poliedro|Poliedro|POLIEDRO|Sistema Poliedro|SISTEMA POLIEDRO', src)
-        textfoundBili = re.search(r'Bilíngue|bilíngue|Bilingue|BILINGUE', src)
+        textfoundPoli = re.search(r'poliedro|Poliedro|Ensino Poliedro|Sistema Poliedro|SISTEMA POLIEDRO|Portal Edros', src)
+        textfoundBili = re.search(r'Ensino Bilíngue|bilíngue|Bilingue|BILINGUE|Internacional|Ensino de inglês', src)
         textfoundBernou = re.search(r'Bernoulli|bernoulli|BERNOULLI', src)
-        textfoundAri = re.search(r'Ari de Sá|Ari|ari de Sá|Ari de Sa|Plataforma SAS', src)
-        textfoundAnglo = re.search(r'Sistema Anglo|anglo|ANGLO|Anglo', src)
-        textfoundEtapa = re.search(r'Etapa|Sistema Etapa|Etapa Sistema', src)
-        textfoundCOC = re.search(r'Sistema COC|Ensino COC|Colegio COC', src)
+        textfoundAri = re.search(r'Ari de Sá|ari de Sá|Ari de Sa|Plataforma SAS|Ensino SAS', src)
+        textfoundAnglo = re.search(r'Sistema Anglo|anglo|Ensino ANGLO|Anglo', src)
+        textfoundEtapa = re.search(r'Ensino Etapa|Colégio Etapa|Sistema Etapa|Etapa Sistema', src)
+        textfoundCOC = re.search(r'Sistema COC|Ensino COC|Colegio COC|COC ensino|Colégio COC', src)
+        textfoundGoogle = re.search(r'Google For Education|Google pela Educação', src)
+        textfoundUnesco = re.search(r'Comunidade Unesco|Unesco', src)
         sistemaEnsino = ''
         if (textfoundPoli != None):
             sistemaEnsino = 'Poliedro'
@@ -91,6 +97,10 @@ def checarSistemaEnsino(url):
             sistemaEnsino = sistemaEnsino + ';' + 'Etapa' if sistemaEnsino != '' else 'Etapa'
         if (textfoundCOC != None):
             sistemaEnsino = sistemaEnsino + ';' + 'COC' if sistemaEnsino != '' else 'COC'
+        if (textfoundGoogle != None):
+            sistemaEnsino = sistemaEnsino + ';' + 'Google for Education' if sistemaEnsino != '' else 'Google for Education'
+        if (textfoundUnesco != None):
+            sistemaEnsino = sistemaEnsino + ';' + 'Unesco' if sistemaEnsino != '' else 'Unesco'
         print("Sistema de Ensino: " + sistemaEnsino)
         return sistemaEnsino
     else:
