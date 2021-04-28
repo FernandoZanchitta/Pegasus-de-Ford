@@ -77,7 +77,7 @@ def checarSistemaEnsino(url):
         textfoundBili = re.search(r'Ensino Bilíngue|bilíngue|Bilingue|BILINGUE|Internacional|Ensino de inglês', src)
         textfoundBernou = re.search(r'Bernoulli|bernoulli|BERNOULLI', src)
         textfoundAri = re.search(r'Ari de Sá|ari de Sá|Ari de Sa|Plataforma SAS|Ensino SAS', src)
-        textfoundAnglo = re.search(r'Sistema Anglo|anglo|Ensino ANGLO|Anglo', src)
+        textfoundAnglo = re.search(r'Sistema Anglo|anglo|Ensino ANGLO|Ecossistema Anglo', src)
         textfoundEtapa = re.search(r'Ensino Etapa|Colégio Etapa|Sistema Etapa|Etapa Sistema', src)
         textfoundCOC = re.search(r'Sistema COC|Ensino COC|Colegio COC|COC ensino|Colégio COC', src)
         textfoundGoogle = re.search(r'Google For Education|Google pela Educação', src)
