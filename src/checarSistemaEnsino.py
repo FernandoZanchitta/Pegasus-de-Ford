@@ -1,6 +1,5 @@
 import re
-
-def checarSistemaEnsino(url):
+def checarSistemaEnsino(driver,url):
     if url != "":
         print("Acessando o link:" + url)
         try:

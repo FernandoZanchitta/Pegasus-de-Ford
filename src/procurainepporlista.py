@@ -3,27 +3,7 @@ import time
 import pandas as pd
 
 
-def pesquisa_google(escola,cidade):
-    try:
-        escola = escola.replace(' ', '+')
-        cidade = cidade.replace(' ', '+')
-    except:
-        telefone = ""
-        domain_url = ""
-        return domain_url, telefone
-    query = escola + "+" + cidade
-    search_url = "https://www.google.com/search?q=" + query
-    driver.get(url=search_url)
-    time.sleep(1)
-    elems = driver.find_elements_by_css_selector(".yuRUbf [href]")
-    try:
-        telefone = driver.find_elements_by_xpath('//*[@class="LrzXr zdqRlf kno-fv"]/a/span')[0].text
-    except IndexError:
-        telefone = '-'
-    links = [elem.get_attribute('href') for elem in elems]
-    domain_url = links[0]
 
-    return domain_url,telefone
 def pesquisa_google_qedu(escola,cidade):
     try:
         escola = escola.replace(' ', '+')

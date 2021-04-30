@@ -1,0 +1,182 @@
+,deal_id,deal_name,código_do_inep,origem,campanhas_de_ataque,link_qedu,cidade_encontrada,campanha_de_marketing_que_originou_a_mql,deal_stage,cidade,sistema_de_ensino,nível_de_crença,qualificação_socioeconômica,dominio_(url_do_site_da_escola),associated_company_id,associated_company,associated_contact_ids,associated_contacts
+0,4006182746,Colégio Ieprol,29340608,MQL — Facebook/Instagram Ads,[FV] - Lista Poliedro,http://www.qedu.org.br/escola/117280-colegio-batista-de-itabuna/sobre,"ITABUNA
+ ",[ABR 2021] Workshop - Avaliações digitais com Poliedro,0P. Prospect,Itabuna,Poliedro,"C. Difícil, mas possível",C/D,colegioieprol.com.br,5196961763,Colégio Ieprol,"13289951, 13333701","Iderval, Rubens de Souza"
+1,1442721824,Colégio Alpha,31180599,MQL — Facebook/Instagram Ads,[FV] - Lista Poliedro,http://qedu.org.br/escola/163183-colegio-alpha/censo-escolar,"VARGINHA
+ ",[MAR 2021] Workshop - Avaliações em um Cenário híbrido,3E. Experimentação,Varginha,Poliedro,"C. Difícil, mas possível",A/B,http://colegioalpha.unis.edu.br/,2835420532,Colégio Alpha,"13331001, 13334251","Cristiane Maria da Cunha Arci, Luciana Maria Pinto Zagger"
+2,4708059992,Liceu Terras do Engenho,35125490,COM — Arpão,[FV] - Lista Poliedro,http://www.qedu.org.br/escola/190612-centro-educacional-terras-do-engenho/sobre,"PIRACICABA
+ ",Não veio via campanha de Marketing,4S. Sondagem,Piracicaba,Poliedro,"C. Difícil, mas possível",A/B,liceu.g12.br,5604641030,Liceu Terras do Engenho,13324551,Ivail Amaral
+3,4942781744,Escola Ethos,33100241,COM — Arpão,[FV] - Lista Poliedro,http://www.qedu.org.br/escola/179416-colegio-paraty/sobre,"PARATI
+ ",Não veio via campanha de Marketing,2R. RAQ,paraty,Poliedro,,C/D,,5806126233,Escola Ethos,13332351,Gabriele Mariano da Fonseca
+4,4708058234,Colégio ilimit,,COM — Arpão,[FV] - Lista Poliedro,http://qedu.org.br/escola/280004-instituto-de-ensino-superior-de-americana-iesa/sobre,"AMERICANA
+ ",Não veio via campanha de Marketing,4S. Sondagem,Americana,Poliedro,D. Para puxar,C/D,colegioilimit.com.br,5604796757,Colégio ilimit,"13327051, 13335201","Laurene, Laurene Oliveira"
+5,4899576928,CCA - Colégio Caetano Álvares,,"CONQ — Cold Contact (Call, Email, WhatsApp)",[FV] - Lista Poliedro,,São Paulo,Não veio via campanha de Marketing,0P. Prospect,São Paulo,Poliedro,E. Orbitando,C/D,colegiocaetanoalvares.com.br,5766532645,CCA - Colégio Caetano Álvares,13331551,Renata Lombardi
+6,4940831547,Colégio Teresa Gil de Mouta,15031837,"CONQ — Cold Contact (Call, Email, WhatsApp)",[FV] - Lista Poliedro,http://www.qedu.org.br/escola/16174-eeefm-doutora-ester-mouta-sede/censo-escolar,"PONTA DE PEDRAS
+ ",Não veio via campanha de Marketing,0P. Prospect,São Paulo,Poliedro,,C/D,colegiotgm.com.br,5795729559,Colégio Teresa Gil de Mouta,,
+7,4899576426,Colégio Elementar,35194712,"CONQ — Cold Contact (Call, Email, WhatsApp)",[FV] - Lista Poliedro,http://www.qedu.org.br/escola/182711-colegio-genius/sobre,"CAMPINAS
+ ",Não veio via campanha de Marketing,0P. Prospect,Campinas,Poliedro,E. Orbitando,C/D,colegioelementar.com.br,5766347344,Colégio Elementar,,
+8,4935245110,AFAM,35438170,"CONQ — Cold Contact (Call, Email, WhatsApp)",[FV] - Lista Poliedro,http://www.qedu.org.br/escola/214538-afam-colegio-unidade-sao-miguel/sobre,"SÃO PAULO
+ ",Não veio via campanha de Marketing,0P. Prospect,São Paulo,Poliedro,,A/B,colegioafam.g12.br,5788145049,AFAM,,
+9,4900888922,Colégio de Saint Germain,27230317,"CONQ — Cold Contact (Call, Email, WhatsApp)",[FV] - Lista Poliedro,http://qedu.org.br/escola/101472-colegio-de-saint-germain/sobre,"MACEIÓ
+ ",Não veio via campanha de Marketing,0P. Prospect,Maceió,Poliedro,,A/B,colegiodesaintgermain.com.br,5766314337,Colégio de Saint Germain,,
+10,4935206777,Colégio Interação,35450522,"CONQ — Cold Contact (Call, Email, WhatsApp)",[FV] - Lista Poliedro,https://qedu.org.br/escola/263146-colegio-interacao/censo-escolar,"ITUPEVA
+ ",Não veio via campanha de Marketing,0P. Prospect,Itupeva,Poliedro,,C/D,colegiointeracaoitupeva.com.br,5788138797,Colégio Interação,"13331451, 13331501","michele@colegiointeracao.com.br, mirian@colegiointeracao.com.br"
+11,1442748435,Colégio Bertoni,41407423,COM — Arpão,,http://www.qedu.org.br/escola/226928-colegio-bertoni/sobre,"FOZ DO IGUAÇU
+ ",[2021] Webinar,Xa. Churn — Agora Não,Foz do Iguaçu,Poliedro,X. Churn,C/D,http://colegiobertoni.com.br,2835404347,Colégio Bertoni,"11717801, 13322201, 13323901","Sergio Alves, Ellen Del Conti, Andrea Vieira"
+12,4890471822,Colégio Sophis Pré-vestibular,,"CONQ — Cold Contact (Call, Email, WhatsApp)",[FV] - Lista Poliedro,,Divinópolis,Não veio via campanha de Marketing,Xa. Churn — Agora Não,Divinópolis,Poliedro,X. Churn,C/D,http://sophiseducacional.com.br/,,,"13327851, 13337801","Shoppis, Richard"
+13,4936396167,Externato São José,35112318,"CONQ — Cold Contact (Call, Email, WhatsApp)",[FV] - Lista Poliedro,https://qedu.org.br/escola/186418-externato-sao-jose/sobre,"ATIBAIA
+ ",Não veio via campanha de Marketing,Xa. Churn — Agora Não,Atibaia,Poliedro,X. Churn,C/D,externatosj.com.br,"2835439296, 5603690775","Externato São José, Externato São José",,
+14,1823317060,Colégio Floresta,35135525,MQL — Webinar,[FV] - Infinite Learning - Workshops,http://www.qedu.org.br/escola/182237-colegio-floresta/sobre,"SÃO PAULO
+ ",[2021] Webinar,Xa. Churn — Agora Não,São Paulo,Poliedro,E. Orbitando,C/D,,3312602433,Colégio Floresta ,"7556651, 12546001","Antonieta Salles Sexas, elotisa@uol.com.br"
+15,4668046639,Colégio Franciscano Pio XII,35105314,"CONQ — Warm Contact (Call, Email, WhatsApp)",[CONQ] - Workshop Semana da Avaliação,http://www.qedu.org.br/escola/210343-colegio-franciscano-pio-xii/sobre,"SÃO PAULO
+ ",[MAR 2021] Infinite Learning Painéis,7T. Termo Enviado,São Paulo,Poliedro,A. Na mão,A/B,pioxiicolegio.com.br,5721041686,Colégio Franciscano Pio XII,"13319410, 13325301, 13325351, 13327351","bruno.silva@pioxiicolegio.com.br, Viviane Paiva Direito Paiva Direito, sueli.freitas@pioxiicolegio.com.br, Ernesto Souza"
+16,4668414987,Colégio Alfa,41007514,MQL — Micro-campanha,[FV] - Lista Poliedro,http://www.qedu.org.br/escola/236018-alfa-de-umuarama-c-e-f-m/sobre,"UMUARAMA
+ ",[2021] Webinar,1M. MQL,Umuarama,Poliedro,E. Orbitando,C/D,http://www.alfaumuarama.com.br/prevestibular/conheca-colegio,2956498401,Alfa Umuarama,"1644251, 12138601, 13316401, 13319409","Jair Antonio Rodrigues Antônio Rodrigues, Elvis Magalhães Silva da Rocha, Pedro, eduardo@colegioalfa.com.br"
+17,4708058236,Sapiens Unidade de Educação Infantil - São Carlos,35152031,,[FV] - Lista Poliedro,http://qedu.org.br/escola/188989-sapiens-collegium/sobre,"ARARAQUARA
+ ",Não veio via campanha de Marketing,Xb. Churn — Não Ligar,Araraquara,Poliedro,X. Churn,C/D,collegiumsapiens.com.br,5604946259,Sapiens Fantasia Sapiens - Araraquara,,
+18,2870421094,Colégio Focus,35808830,SQL — Indicação,[FV] - Lista Poliedro,http://qedu.org.br/escola/208543-colegio-focus/sobre,"EMBU
+ ",Não veio via campanha de Marketing,Xa. Churn — Agora Não,Guaratinguetá ,Poliedro,X. Churn,A/B,,,,,
+19,4935153059,Colégios UNIVAP unidade Aquarius,35808246,COM — Arpão,[FV] - Lista Poliedro,http://www.qedu.org.br/escola/203890-colegio-aquarius-univap/sobre,"SÃO JOSÉ DOS CAMPOS
+ ",Não veio via campanha de Marketing,0P. Prospect,São José dos Campos,Poliedro,,C/D,univap.br,"5604946263, 5619234122","Colégios UNIVAP - unidade centro, Colégio UNIVAP - Unidade Aquarius",,
+20,4935218471,Colégios UNIVAP - unidade centro,35808246.0,COM — Arpão,[FV] - Lista Top Escolas no Enem,False,False,Não veio via campanha de Marketing,0P. Prospect,São José dos Campos,Poliedro,,C/D,https://www.univap.br/colegios/unidade-aquarius,5604946263,Colégios UNIVAP - unidade centro,13332901,Érica Reis
+21,4899583764,Instituto Educacional Arancuã,50082957,COM — Arpão,[FV] - Lista Poliedro,http://www.qedu.org.br/escola/263602-ie-arancua/sobre,"SIDROLÂNDIA
+ ",Não veio via campanha de Marketing,0P. Prospect,Sindrolândia,Poliedro,,C/D,arancua.com,5603534350,Instituto Educacional Arancuã,,
+22,4617784416,Colégio Integrado,41015673,COM — Arpão,,http://www.qedu.org.br/escola/235762-cei-centro-educacional-integrado-ltda/sobre,"CAMPO MOURÃO
+ ",Não veio via campanha de Marketing,4S. Sondagem,Campo Mourão,Poliedro,E. Orbitando,C/D,grupointegrado.br,5605000816,Colégio Integrado,,
+23,4889625163,EIC - Educandário Imaculada Conceição,42000262,COM — Arpão,[FV] - Lista Poliedro,https://www.qedu.org.br/escola/222035-educandario-imaculada-conceicao/censo-escolar,"FLORIANÓPOLIS
+ ",Não veio via campanha de Marketing,0P. Prospect,Florianópolis,Poliedro,,C/D,,5604944522,EIC - Educandário Imaculada Conceição,13321001,David Rovigo
+24,4894176115,Esquema Único Marília,,COM — Arpão,[FV] - Lista Poliedro,,"Marília,  Presidente Prudente, Bauru, São José do Rio Preto",Não veio via campanha de Marketing,0P. Prospect,"Marília,  Presidente Prudente, Bauru, São José do Rio Preto",Poliedro,,Não sei,,2835386977,Esquema Único,,
+25,4667564193,Colégio Ábaco,35108923,COM — Arpão,[FV] - Lista Poliedro,http://www.qedu.org.br/escola/182891-colegio-abaco/sobre,"SÃO BERNARDO DO CAMPO
+ ",[MAR 2021] Infinite Learning Painéis,0P. Prospect,São Bernardo do Campo,Poliedro,X. Churn,A/B,,5594966849,Colégio Ábaco,13316801,Rodolfo Gimenes Saad
+26,4877861806,Colégio Batista de Brasília,53001281,COM — Arpão,[FV] - Lista Poliedro,http://www.qedu.org.br/escola/242535-colegio-batista-de-brasilia/sobre,"BRASÍLIA
+ ",Não veio via campanha de Marketing,0P. Prospect,Brasília,Poliedro,D. Para puxar,,,5748681877,Colégio Batista de Brasília,,
+27,4900963133,Colégio Criarte,,COM — Arpão,[FV] - Lista Poliedro,https://www.qedu.org.br/escola/221783-escola-criarte-mga/sobre,"MARINGÁ
+ ",Não veio via campanha de Marketing,0P. Prospect,Maringá,Poliedro,,C/D,colegiocriartemaringa.com.br,5604999191,Colégio Criarte,13331951,coordenacao@escolacriarte.com.br
+28,4891583669,Contato Unidade Farol,27051889,COM — Arpão,[FV] - Lista Poliedro,https://www.qedu.org.br/escola/289242-colegio-santa-amelia-unidade-farol/sobre,"MACEIÓ
+ ",Não veio via campanha de Marketing,Xa. Churn — Agora Não,Maceió,Poliedro,,A/B,,2835210713,Contato,,
+29,4708708420,Colégio Lumiere,50030590,Não sei / Outros,[FV] - Lista Poliedro,http://www.qedu.org.br/escola/254295-colegio-lumiere/sobre,"DOURADOS
+ ",Não veio via campanha de Marketing,0P. Prospect,Dourados,Poliedro,,A/B,https://www.facebook.com/colegiolumieredourados.lumiere/,2835439218,Colégio Lumiere,13340351,professor_glaucio@yahoo.com.br
+30,4708654237,Colégio Alexander Fleming,50005405,Não sei / Outros,[FV] - Lista Poliedro,http://www.qedu.org.br/escola/254234-colegio-alexander-fleming/sobre,"CAMPO GRANDE
+ ",Não veio via campanha de Marketing,0P. Prospect,Campo Grande,Poliedro,,A/B,alexanderfleming.com.br,5389145016,Colégio Alexander Fleming,,
+31,4891191477,Colegio da Villa,35442264,"CONQ — Cold Contact (Call, Email, WhatsApp)",[FV] - Lista Poliedro,http://www.qedu.org.br/escola/213428-da-villa-colegio/sobre,"JAGUARIÚNA
+ ",Não veio via campanha de Marketing,0P. Prospect,Jaguariúna,Poliedro,,C/D,colegiodavilla.com.br,5756294307,Colegio da Villa,13332501,Elaine
+32,4889981315,Colégio Salesiano Santa Maria,,COM — Arpão,[FV] - Lista Poliedro,https://www.qedu.org.br/escola/283558-colegio-salesiano-santa-maria/sobre,"CÁCERES
+ ",Não veio via campanha de Marketing,4S. Sondagem,Cárceres,Poliedro,,C/D,cssmcaceres.com.br,5756271697,Colégio Salesiano Santa Maria,13330851,Shirleni Sato
+33,1442728982,Colégio Albert Sabin,35124199.0,MQL — Formulário Site Eduqo,[FV] - Lista Top Escolas no Enem,False,False,Não veio via campanha de Marketing,Xa. Churn — Agora Não,São Paulo,Poliedro,D. Para puxar,Premium,https://www.albertsabin.com.br/www/,2835200461,Colégio Albert Sabin,10566101,Paulo Fontes de Queiroz Junior
+34,4677079311,Funlec,50024701,COM — Arpão,[FV] - Lista Poliedro,https://www.qedu.org.br/escola/259384-colegio-hermesindo-alonso-gonzalez/censo-escolar,"TRÊS LAGOAS
+ ",Não veio via campanha de Marketing,4S. Sondagem,Três Lagoas,Poliedro,,A/B,funlec.com.br,5604641031,Funlec,13321301,Hudson Ortiz
+35,4627693683,Colégio São José,35109721,COM — Arpão,,http://qedu.org.br/escola/208592-colegio-sao-jose/sobre,"SANTOS
+ ",Não veio via campanha de Marketing,4S. Sondagem,Santos,Poliedro,,C/D,portal.sipeb.com.br,5604944523,São José,,
+36,4890815564,Centro Evolução Arapucarana,41026128,"CONQ — Cold Contact (Call, Email, WhatsApp)",[FV] - Lista Poliedro,http://www.qedu.org.br/escola/227704-evolucao-cent-cult-de-apucarana-c-ei-f-m/censo-escolar,"APUCARANA
+ ",Não veio via campanha de Marketing,4S. Sondagem,Arapucarana,Poliedro,,C/D,evolucaoapucarana.com.br,5755714657,Centro Evolução Arapucarana,13330501,Colégio Evolução
+37,4889851502,Colégio Jean Jacques Rousseau,35452543,COM — Arpão,[FV] - Lista Poliedro,http://www.qedu.org.br/escola/262958-colegio-jean-jacques-rousseau/sobre,"SÃO PAULO
+ ",Não veio via campanha de Marketing,4S. Sondagem,São Paulo,Poliedro,D. Para puxar,C/D,https://www.colegiojjr.com.br,5755714397,Colégio jean Jacques Rousseau,13332201,Adilson Souza
+38,4889616903,Colégio Pontual Alfenas,31318345,"CONQ — Cold Contact (Call, Email, WhatsApp)",[FV] - Lista Poliedro,http://www.qedu.org.br/escola/139925-colegio-pontual-de-alfenas-ltda-me/censo-escolar,"ALFENAS
+ ",Não veio via campanha de Marketing,0P. Prospect,Alfenas,Poliedro,,C/D,https://www.colegiopontualalfenas.com.br/,,,,
+39,4889452063,Colégio Apoio Uberaba,31320536,COM — Arpão,[FV] - Lista Poliedro,https://www.qedu.org.br/escola/146662-sistema-apoio-de-ensino/sobre,"UBERABA
+ ",Não veio via campanha de Marketing,4S. Sondagem,Uberaba,Poliedro,,C/D,https://www.sistemaapoio.com/sistema-de-ensino/metodologia,5806304581,Colégio Apoio Uberaba,"13332151, 13335101","Daniela Almeida, José Humberto Alves de Brito"
+40,4889423123,Instituto Educacional Porto Real / Poliedro,33157596,"CONQ — Cold Contact (Call, Email, WhatsApp)",[FV] - Lista Poliedro,http://www.qedu.org.br/escola/171501-em-jose-ferreira-da-silva/censo-escolar,"PORTO REAL
+ ",[ABR 2021] Workshop - Avaliações digitais com Poliedro,2R. RAQ,Porto Real,Poliedro,E. Orbitando,A/B,https://www.iepr.com.br/,5814482578,Instituto Educacional Porto Real / Poliedro,"13327801, 13334001","Porto Real, Hilda Eleonora Silva"
+41,4889421475,Colégio Status / Poliedro,31118346.0,"CONQ — Cold Contact (Call, Email, WhatsApp)",[FV] - Lista Poliedro,False,False,Não veio via campanha de Marketing,0P. Prospect,Passos,Poliedro,,A/B,https://poliedro-colegio-status.business.site/,,,,
+42,4664441004,Colegio Externato Sao Joao,35113670,SQL — Indicação,,http://www.qedu.org.br/escola/202985-externato-colegio-educacao-infantil-e-ensino-fundamental/sobre,"SÃO JOÃO DA BOA VISTA
+ ",Não veio via campanha de Marketing,5PP. Projeto Personalizado,São João da Boa Vista,Poliedro,"C. Difícil, mas possível",C/D,,5633938464,Colegio Externato Sao Joao,,
+43,4719222910,Colégio Delta Araçatuba,35119040,COM — Arpão,,http://www.qedu.org.br/escola/186799-colegio-delta/sobre,"SÃO PAULO
+ ",Não veio via campanha de Marketing,8F. Fechado,Araçatuba,Poliedro,0. Fechado,A/B,,5667459503,Colégio Delta Araçatuba,"13322851, 13323201","Lucio Flavio Andreassa, Andre Rowe"
+44,4663605111,Colégio Integral,42068690,,[FV] - Lista Poliedro,http://www.qedu.org.br/escola/225565-colegio-salesiano-itajai/sobre,"ITAJAÍ
+ ",[MAR 2021] Infinite Learning Painéis,Xa. Churn — Agora Não,Itajaí,Poliedro,,C/D,integralitajai.com.br,5604997800,Integral Itajaí,"13319052, 13319801","pedro.rodrigues@integralitajai.com.br, pablo.pereira@integralitajai.com.br"
+45,4011527290,Colégio FAAG,35440000,MQL — Micro-campanha,[FV] - Lista Poliedro,http://www.qedu.org.br/escola/214914-colegio-faag/sobre,"AGUDOS
+ ",Não veio via campanha de Marketing,Xa. Churn — Agora Não,Agudos,Poliedro,X. Churn,A/B,colegiofaag.com.br,5205131203,Colégio FAAG,13319251,lucia.aravechia@faag.com.br
+46,4431545481,Colégio Arena,52103137,COM — Arpão,,https://www.qedu.org.br/escola/284359-arena-enem-vestibulares-eireli-me/sobre,"GOIÂNIA
+ ",Não veio via campanha de Marketing,8F. Fechado,Goiânia,Poliedro,0. Fechado,Premium,,5559464450,Colégio Arena,,
+47,1442748393,Escola São José,29001676,COM — Arpão,[FV] - Lista Poliedro,http://www.qedu.org.br/escola/129614-colegio-sao-jose/sobre,"BARREIRAS
+ ",[JAN 2021] Kit de volta as aulas,0P. Prospect,Barreiras,Poliedro,,C/D,,2835429765,Escola São José,"10704451, 10704501, 13267051","armindobrugnera@yahoo.com.br, Francisca, coordenacao.esj.ba2@gmail.com"
+48,2761862027,Colégio Santa Úrsula,35114960,COM — Arpão,[FV] - Lista Ari de Sá,http://www.qedu.org.br/escola/188458-santa-ursula-ribeirao-preto-ei-ef-em-instituto/sobre,"RIBEIRÃO PRETO
+ ",Não veio via campanha de Marketing,0P. Prospect,Ribeirão Preto,Poliedro,D. Para puxar,Premium,colegiosantaursula.com.br,5795757379,Colégio Santa Úrsula,11632701,Rafael Bianchi
+49,1442722103,Colégio Ateneu,41379209,"CONQ — Warm Contact (Call, Email, WhatsApp)",[FV] - Lista Poliedro,https://www.qedu.org.br/escola/213167-colegio-ateneu-ensino-fundamental-e-medio/sobre,"LONDRINA
+ ",Não veio via campanha de Marketing,0P. Prospect,Londrina,Poliedro,E. Orbitando,A/B,,2835457486,Colégio Ateneu,"642351, 11198201","Miguel Afonso Vargas, Geraldo Luiz de Souza"
+50,2968974598,Colégio Ser Sorocaba,35137674,SQL — Indicação,,http://www.qedu.org.br/escola/188041-colegio-ser-sorocaba/censo-escolar,"SOROCABA
+ ",Não veio via campanha de Marketing,Xa. Churn — Agora Não,Sorocaba,Poliedro,0. Fechado,Premium,,2835420587,Colégio Ser Sorocaba,"11777601, 13303501","Vanessa Bertolini, jmenck@colegioser.com.br"
+51,1442741529,Colégio Santana,35100493,"CONQ — Warm Contact (Call, Email, WhatsApp)",[FV] - Lista Poliedro,https://www.qedu.org.br/escola/189218-eeifm-santana-colegio/sobre,"SÃO PAULO
+ ",[SET 2020] (Webinar) Novo Ensino Médio: Como gestores escolares estão se preparando,0P. Prospect,São Paulo,Poliedro,E. Orbitando,C/D,,2835211980,Colégio Santana,"1077803, 2372301, 12064001","taniamara2312@gmail.com, almir.v@colegiosantana.com.br, Maria Fernanda Scuoteguazza Salgado Costa"
+52,1781051499,COLEGIO SANTA FE,21017506.0,MQL — Webinar,[FV] - Lista Top Escolas no Enem,False,False,Não veio via campanha de Marketing,0P. Prospect,São Luís,Poliedro,D. Para puxar,C/D,https://www.colegiosantafe.slz.br/,3256137452,Colégio Santa Fé,"4394501, 11654101","Wanessa, Anisia Rios"
+53,1447075770,Colégio Salesiano São Gonçalo,51039877,COM — Arpão,[FV] - Lista Poliedro,http://www.qedu.org.br/escola/252891-eeb-colegio-salesiano-sao-goncalo/sobre,"CUIABÁ
+ ",[MAR 2021] Semana da Avaliação,4S. Sondagem,Cuiabá,Poliedro,E. Orbitando,Premium,,2835429599,Colégio Salesiano São Gonçalo,"1514651, 11599701, 13317451, 13324151","diretorgeral@cssg.g12.br, Derli Cleria da Silva Cezar Cleria da Silva Cezar, josefrancisco@cssg.g12.br, Maria Beatriz Curado"
+54,4940913408,Colégio Portinari Limeira,35159487,COM — Arpão,[FV] - Lista Poliedro,http://www.qedu.org.br/escola/202336-colegio-portinari-de-ensino-fundamenttal/sobre,"LIMEIRA
+ ",Não veio via campanha de Marketing,5PP. Projeto Personalizado,Limeira,Poliedro,"C. Difícil, mas possível",A/B,portinari-ge.com,"4243201849, 5755714073","Colégio Portinari Limeira, Portinari Grupo Educacional","11527951, 13318451","Carlos Alberto Ruberto, Rafael Lucas de Oliveira"
+55,1442715669,Colégio Deo Volente,35288561,MQL — Formulário Site Eduqo,[FV] - Lista Poliedro,http://www.qedu.org.br/escola/198610-colegio-deo-volente/sobre,"SÃO PAULO
+ ",Não veio via campanha de Marketing,0P. Prospect,São Paulo,Poliedro,X. Churn,C/D,,2835429780,Colégio Deo Volente,"4005201, 10304651","Carla, José Carlos M Junior"
+56,4678880408,Curso Interseção/Colégio Leffler,29458757,,[FV] - Lista Poliedro,https://www.qedu.org.br/escola/270331-curso-e-colegio-fortunato/sobre,"SALVADOR
+ ",[MAR 2021] Infinite Learning Painéis,0P. Prospect,Salvador,Poliedro,,A/B,,2835449921,Curso Interseção,11525251,luciba2001@gmail.com
+57,5045172152,Colégio Dinâmico,28031970.0,COM — Arpão,[FV] - Lista Top Escolas no Enem,False,False,Não veio via campanha de Marketing,0P. Prospect,Aracaju,Poliedro,X. Churn,A/B,http://www.qedu.org.br/escola/103731-jfgg-e-cia-ltda/sobre,2835452801,Colégio Dinâmico,13324051,João
+58,4949593967,Colégio ADV Botucatu,,COM — Arpão,[FV] - Lista Poliedro,,Barra Bonita,Não veio via campanha de Marketing,0P. Prospect,Barra Bonita,Poliedro,,A/B,colegioadv.com.br,4931226286,Colégio ADV,"13319553, 13331301, 13332751","soraia@colegioadv.com.br, Nonô, Andressa Milene Parente Nogueira"
+59,4936070485,Novo Colégio Unidades I e II,35258143,,[FV] - Lista Poliedro,http://www.qedu.org.br/escola/201334-colegio-novo/sobre,"FRANCA
+ ",Não veio via campanha de Marketing,0P. Prospect,Franca,Poliedro,,C/D,novocolegio.com.br,5603386036,Novo Colégio Unidade I,13331701,fabionovocolegio@hotmail.com
+60,4708124065,Colégio Intelecto,,,[FV] - Lista Poliedro,,Pouso Alegre,Não veio via campanha de Marketing,0P. Prospect,Pouso Alegre,Poliedro,,A/B,colegiointelecto.com,5137503156,Colégio Intelecto,,
+61,4708124064,Colégio Oficina,42142008,,[FV] - Lista Poliedro,http://www.qedu.org.br/escola/215360-colegio-oficina-me/sobre,"JOINVILLE
+ ",Não veio via campanha de Marketing,0P. Prospect,Joinville,Poliedro,,A/B,colegiooficinajoinville.com.br,5603377773,Colégio Oficina,,
+62,4708124063,Colégio ADV Bauru,35118114,,[FV] - Lista Poliedro,http://qedu.org.br/escola/187410-eeifm-batista-de-bauru-colegio/sobre,"BAURU
+ ",Não veio via campanha de Marketing,2R. RAQ,Bauru,Poliedro,,A/B,colegioadv.com.br,4931226286,Colégio ADV,13331601,Mamede Ghadban
+63,4708124062,Sapiens Unidade Sapiens - Araraquara,35152031,,[FV] - Lista Poliedro,http://qedu.org.br/escola/188989-sapiens-collegium/sobre,"ARARAQUARA
+ ",Não veio via campanha de Marketing,0P. Prospect,Araraquara,Poliedro,,C/D,collegiumsapiens.com.br,5604946259,Sapiens Fantasia Sapiens - Araraquara,,
+64,4708065172,Colégio Mestre,35803571,,[FV] - Lista Poliedro,http://www.qedu.org.br/escola/198214-colegio-mestre/sobre,"SÃO SEBASTIÃO
+ ",Não veio via campanha de Marketing,Xb. Churn — Não Ligar,São Sebastião,Poliedro,X. Churn,Desqualificada,colegiomestre.com.br,5604880525,Colégio Mestre,,
+65,4708065171,Colégio Mater Dei,41025954,,[FV] - Lista Poliedro,https://www.qedu.org.br/escola/214100-ceiefm-mater-dei/sobre,"APUCARANA
+ ",Não veio via campanha de Marketing,0P. Prospect,Apucarana,Poliedro,,C/D,materdeiapucarana.com.br,5603933769,Colégio Mater Dei,,
+66,4708062871,Integral Marechal,41065760,,[FV] - Lista Poliedro,http://qedu.org.br/escola/214488-25-de-marco-e-m-ei-ef/censo-escolar,"MARECHAL CÂNDIDO RONDON
+ ",Não veio via campanha de Marketing,0P. Prospect,Marechal Cândido Rondon,Poliedro,,A/B,integralmarechal.com.br,5603451029,Integral Marechal,,
+67,4708062869,Lobo Colégio e Pré-Vestibular,41382366,,[FV] - Lista Poliedro,http://qedu.org.br/escola/236593-colegio-lobo-do-parana/sobre,"GUARAPUAVA
+ ",Não veio via campanha de Marketing,0P. Prospect,Ponta Grossa,Poliedro,,C/D,loboonline.com.br,5603451028,Lobo Colégio e Pré-Vestibular,,
+68,4708059990,Colégio Porto Bragança Unidade Centro,35307828,,[FV] - Lista Poliedro,http://www.qedu.org.br/escola/205852-ce-porto-braganca/sobre,"BRAGANÇA PAULISTA
+ ",Não veio via campanha de Marketing,2R. RAQ,Bragança Paulista,Poliedro,,A/B,portobraganca.com.br,5605033083,Colégio Porto Bragança Unidade Centro,13334901,Regina Perrucci
+69,4708058237,Colégio Unesc,42113601,,[FV] - Lista Poliedro,http://www.qedu.org.br/escola/216060-colegio-unesc/sobre,"CRICIÚMA
+ ",Não veio via campanha de Marketing,0P. Prospect,Cricíuma,Poliedro,,C/D,unesc.net,5604805251,Colégio Unesc,,
+70,4708058233,Sapiens Fantasia Sapiens - Araraquara,35152031,,[FV] - Lista Poliedro,http://qedu.org.br/escola/188989-sapiens-collegium/sobre,"ARARAQUARA
+ ",Não veio via campanha de Marketing,0P. Prospect,Araraquara,Poliedro,,C/D,collegiumsapiens.com.br,5604946259,Sapiens Fantasia Sapiens - Araraquara,,
+71,4708052653,Sapiens Unidade de Ensino Médio - São Carlos,35125436,,[FV] - Lista Poliedro,https://www.qedu.org.br/escola/190607-colegio-sapiens-curso-e/censo-escolar,"SÃO CARLOS
+ ",Não veio via campanha de Marketing,0P. Prospect,Araraquara,Poliedro,,C/D,collegiumsapiens.com.br,5604946259,Sapiens Fantasia Sapiens - Araraquara,13337101,Josué
+72,4708049692,Colégio Assunção,41131584,,[FV] - Lista Poliedro,http://www.qedu.org.br/escola/237151-em-nossa-sra-da-assuncao-col-ed-inf-ef/sobre,"CURITIBA
+ ",Não veio via campanha de Marketing,0P. Prospect,Curitiba,Poliedro,,C/D,assuncaocuritiba.com.br,5604806937,Colégio Assunção,,
+73,4708045608,Colégio John Kennedy,35113943,,[FV] - Lista Poliedro,https://www.qedu.org.br/escola/192695-colegio-john-kennedy/censo-escolar,"PIRASSUNUNGA
+ ",Não veio via campanha de Marketing,0P. Prospect,Pirassununga,Poliedro,,C/D,kennedy.com.br,5604641029,Colégio John Kennedy,,
+74,4708043124,Integral Itajaí,42068690,,[FV] - Lista Poliedro,http://www.qedu.org.br/escola/225565-colegio-salesiano-itajai/sobre,"ITAJAÍ
+ ",Não veio via campanha de Marketing,0P. Prospect,Itajaí,Poliedro,,C/D,integralitajai.com.br,5604997800,Integral Itajaí,,
+75,4708040531,Esquema Único,35810095,,[FV] - Lista Poliedro,http://www.qedu.org.br/escola/204296-colegio-esquema-unico/sobre,"MARÍLIA
+ ",Não veio via campanha de Marketing,0P. Prospect,Bauru,Poliedro,,A/B,esquemaunico.com.br,5604805250,Esquema Único,,
+76,4708040530,Funlec,50024701,,[FV] - Lista Poliedro,https://www.qedu.org.br/escola/259384-colegio-hermesindo-alonso-gonzalez/censo-escolar,"TRÊS LAGOAS
+ ",Não veio via campanha de Marketing,0P. Prospect,Três Lagoas,Poliedro,,A/B,funlec.com.br,5604641031,Funlec,,
+77,4706510891,Colégio ADV Barra Bonita EM e Pré-Vestibular,35299546,,[FV] - Lista Poliedro,https://www.qedu.org.br/escola/188762-colegio-adv/censo-escolar,"BARRA BONITA
+ ",Não veio via campanha de Marketing,0P. Prospect,Barra Bonita,Poliedro,,A/B,colegioadv.com.br,4931226286,Colégio ADV,,
+78,4706510890,Colégio ADV Barra Bonita Infantil e EF,,,[FV] - Lista Poliedro,,Barra Bonita,Não veio via campanha de Marketing,0P. Prospect,Barra Bonita,Poliedro,,A/B,colegioadv.com.br,4931226286,Colégio ADV,,
+79,4706510889,Colégio Integrado,41015673,,[FV] - Lista Poliedro,http://www.qedu.org.br/escola/235762-cei-centro-educacional-integrado-ltda/sobre,"CAMPO MOURÃO
+ ",Não veio via campanha de Marketing,0P. Prospect,Campo Mourão,Poliedro,,C/D,grupointegrado.br,5605000816,Colégio Integrado,,
+80,4706508351,Colégio de Aplicações,42068673,,[FV] - Lista Poliedro,http://qedu.org.br/escola/215930-colegio-de-aplicacao-da-univali/sobre,"ITAJAÍ
+ ",Não veio via campanha de Marketing,0P. Prospect,Itajaí,Poliedro,,C/D,univali.br,5604880524,Colégio de Aplicações,,
+81,4706508349,Colégio Ipê,35161950,,[FV] - Lista Poliedro,http://www.qedu.org.br/escola/200180-colegio-ipe/sobre,"ARUJÁ
+ ",Não veio via campanha de Marketing,0P. Prospect,Arujá,Poliedro,,A/B,colegioipearuja.com.br,5604878992,Colégio Ipê,,
+82,4706504002,Colégio Nova Geração,35439526,,[FV] - Lista Poliedro,http://www.qedu.org.br/escola/213607-colegio-nova-geracao/sobre,"SÃO JOSÉ DOS CAMPOS
+ ",Não veio via campanha de Marketing,Xb. Churn — Não Ligar,Caraguatatuba,Poliedro,X. Churn,Desqualificada,colegionovageracao.com.br,5603690776,Colégio Nova Geração,,
+83,4706504001,FIDE,31341290,COM — Arpão,[FV] - Lista Poliedro,http://www.qedu.org.br/escola/161058-cei-fide/sobre,"ITABIRA
+ ",Não veio via campanha de Marketing,0P. Prospect,Itabira,Poliedro,,A/B,fideitabira.com.br,5604908085,FIDE,,
+84,4706501523,São José,35109721,,[FV] - Lista Poliedro,http://qedu.org.br/escola/208592-colegio-sao-jose/sobre,"SANTOS
+ ",Não veio via campanha de Marketing,0P. Prospect,Santos,Poliedro,,C/D,portal.sipeb.com.br,5604944523,São José,,
+85,4663691669,Colégio Canopus,35195133,COM — Arpão,[FV] - Lista Poliedro,http://qedu.org.br/escola/210261-canopus-colegio/sobre,"CARAGUATATUBA
+ ",[MAR 2021] Infinite Learning Painéis,0P. Prospect,Caraguatatuba,Poliedro,X. Churn,C/D,,5643943544,Colégio Canopus,13319101,coordenacao@colegiocanopus.com.br
+86,4663553715,Colégio ADV Jaú,35568036,COM — Arpão,[FV] - Lista Poliedro,http://www.qedu.org.br/escola/279763-adv-colegio-jau-ensino-fundamental-i/sobre,"JAÚ
+ ",[MAR 2021] Infinite Learning Painéis,2R. RAQ,Jaú,Poliedro,,A/B,colegioadv.com.br,4931226286,Colégio ADV,"13054703, 13319406, 13329501, 13329551","rosemerioliv@hotmail.com, rsancinetti@bol.com.br, Lilian, Rafaella Pelisson"
+87,1447063163,UNIVAP Vila Branca,35167800,COM — Arpão,[FV] - Lista Poliedro,https://www.qedu.org.br/escola/191098-univap-vila-branca-colegio-tecnico/sobre,"JACAREÍ
+ ",Não veio via campanha de Marketing,0P. Prospect,Jacareí,Poliedro,,A/B,,2835420691,UNIVAP Vila Branca,9651,Amanda
+88,1442766894,Colégio Catarinense,42000670,COM — Arpão,[FV] - Lista Poliedro,http://www.qedu.org.br/escola/217908-colegio-catarinense/censo-escolar,"FLORIANÓPOLIS
+ ",Não veio via campanha de Marketing,0P. Prospect,Florianópolis,Poliedro,,Premium,,2835449794,Colégio Catarinense,"12337403, 13320951","mjandrade@colegiocatarinense.g12.br, Cláudia Maggioni"
+89,1442741431,Colégio Século,13101765,"CONQ — Cold Contact (Call, Email, WhatsApp)",[FV] - Lista Poliedro,https://www.qedu.org.br/escola/273118-centro-educacional-seculo/censo-escolar,"MANAUS
+ ",Não veio via campanha de Marketing,0P. Prospect,Manaus,Poliedro,X. Churn,Premium,,2835449792,Colégio Século,12304801,nivia.carvalho@yahoo.com.br
+90,1442741311,Colégio Leme,42084695,"CONQ — Cold Contact (Call, Email, WhatsApp)",[FV] - Lista Poliedro,http://www.qedu.org.br/escola/270776-colegio-leme-ltda/sobre,"CRICIÚMA
+ ",Não veio via campanha de Marketing,0P. Prospect,Criciúma,Poliedro,X. Churn,,,2835473698,Colégio Leme,,
+91,1442741303,Colégio Ideal,35295784,"CONQ — Warm Contact (Call, Email, WhatsApp)",[FV] - Lista Poliedro,http://www.qedu.org.br/escola/184093-colegio-ideal/sobre,"RIBEIRÃO PRETO
+ ",Não veio via campanha de Marketing,0P. Prospect,Ribeirão Preto,Poliedro,X. Churn,A/B,https://www.colegioideal.net/,2835449986,Colégio Ideal,"1075753, 1078551","martins.jbio@gmail.com, rafaelam020@gmail.com"
+92,1442735853,Colégio PGD,41379110,COM — Arpão,,http://qedu.org.br/escola/236191-eefm-colegio-pgd-ed-inf/sobre,"LONDRINA
+ ",Não veio via campanha de Marketing,Xb. Churn — Não Ligar,Londrina,Poliedro,X. Churn,A/B,,2835452768,Colégio PGD,13325201,Patrícia
+93,1442729000,COLÉGIO BERLAAR SAGRADO CORAÇÃO DE MARIA/ Pará de Minas MG,31041441,"CONQ — Cold Contact (Call, Email, WhatsApp)",[FV] - Lista Poliedro,http://www.qedu.org.br/escola/159054-colegio-berlaar-sagrado-coracao-de-maria/censo-escolar,"PARÁ DE MINAS
+ ",Não veio via campanha de Marketing,0P. Prospect,Pará de Minas,Poliedro,,C/D,,2835420598,Colégio Berlaar Sagrado Coração de Maria,,
+94,1442728979,Grupo Unis,31180599,"CONQ — Cold Contact (Call, Email, WhatsApp)",[FV] - Lista Poliedro,http://qedu.org.br/escola/163183-colegio-alpha/censo-escolar,"VARGINHA
+ ",Não veio via campanha de Marketing,0P. Prospect,Varginha,Poliedro,X. Churn,C/D,,2835449896,Grupo Unis,"13333901, 13333951","Gustavo Rabelo, Crisitiane Maria"
+95,1442721911,Colégio Progressão,35187835,COM — Arpão,"[FV] - Relacionamento Premium (Mateus, Feijão...)",https://www.qedu.org.br/escola/187552-progressao-colegio/censo-escolar,"TAUBATÉ
+ ",Não veio via campanha de Marketing,0P. Prospect,Taubaté,Poliedro,X. Churn,C/D,progressao.com,2835429544,Colégio Progressão,"2292201, 12383201","Roberta, haise.macetano@progressao.com"
