@@ -1,6 +1,5 @@
 # coding: utf-8
 import requests, json
-import pandas as pd
 import time
 from acessoinep import acessoinep
 from acessoinep import ExitDriver
@@ -93,9 +92,9 @@ for i in range((len(y))):
 
 json_data = json.dumps(data).encode('utf8')
 #print(json_data)
-pdObj = pd.read_json(json_data, orient='index', encoding='utf8')
+pdObj = pandas.read_json(json_data, orient='index', encoding='utf8')
 #print(pdObj)
-csvData = pdObj.to_csv('output/%s.csv'%query ,index=False)
+csvData = pdObj.to_csv('output/%s.csvoutput/%s.csv'%query ,index=False)
 ExitDriver()
 
 
