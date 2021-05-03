@@ -1,7 +1,7 @@
 import pandas
 from selenium import webdriver
 import time
-from checarSistemaEnsino import *
+from scrapping import checarSistemaEnsino
 
 PATH = "/Users/FernandoZanchitta/Documents/chromedriver"
 driver = webdriver.Chrome(PATH)

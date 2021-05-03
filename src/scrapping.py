@@ -1,13 +1,14 @@
-from selenium import webdriver
 from selenium.webdriver.common.action_chains import ActionChains
 from selenium.webdriver.common.keys import Keys
 import re
 import time
 
+#Funçoes de Webscrapping
 
+# Chama uma pesquisaGoogleQedu -> Procura o Link de dominio qedu e
+# Realiza o Scrapping do Código Inep e Batimento de Cidade.
 def acessoQedu(driver,escola,cidade):
     qedu_url = pesquisaGoogleQedu(driver,escola,cidade)
-    #print("Url da escola QEDU: "+ qedu_url)
     if qedu_url != "":
         driver.get(url= qedu_url)
         time.sleep(1)
@@ -19,12 +20,12 @@ def acessoQedu(driver,escola,cidade):
             city = driver.find_elements_by_xpath('//*[@class="subnav-title"]/ul/li [3]')[0].text
         except IndexError:
             city = cidade
-        #CodigoInep = incategory.find_element_by_tag_name("tbody").find_element_by_tag_name("tr").find_element_by_tag_name("td")
     else:
         inep = ""
         city = cidade
     return inep, city, qedu_url
 
+#Chama uma Pesquisa do Google: "Nome da Escola + Cidade + 'qedu' "
 def pesquisaGoogleQedu(driver,escola,cidade):
     escola = escola.replace(' ', '+')
     cidade = cidade.replace(' ', '+')
@@ -64,6 +65,7 @@ def pesquisaGoogleQedu(driver,escola,cidade):
 
     return qedu_url
 
+#Chama uma Pesquisa do Google: "Nome da Escola + Cidade e Pega o primeiro Link e o Telefone
 def pesquisaGoogleSiteTelefone(driver,escola,cidade):
     try:
         escola = escola.replace(' ', '+')
@@ -86,6 +88,8 @@ def pesquisaGoogleSiteTelefone(driver,escola,cidade):
 
     return domain_url,telefone
 
+# Entra no url, e procura as palavras chave representando
+# os sistemas de ensino no Código Fonte da página
 def checarSistemaEnsino(driver,url):
     if url != "":
         print("Acessando o link:" + url)
@@ -141,10 +145,13 @@ def checarSistemaEnsino(driver,url):
     else:
         return ""
 
-def ExitDriver():
+#Fecha o driver
+def ExitDriver(driver):
+    driver.delete_all_cookies()
     driver.quit()
 
-def delete_cache():
+#Nao uso em nada atualmente, deleta o cache da página.
+def delete_cache(driver):
     driver.execute_script("window.open('');")
     time.sleep(1)
     driver.switch_to.window(driver.window_handles[-1])
