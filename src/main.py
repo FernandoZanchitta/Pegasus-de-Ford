@@ -1,5 +1,5 @@
 from selenium import webdriver
-from scrapping import ExitDriver
+from scrapping import exitdriver
 import pandas
 from mapsprototype import *
 #Modelo de Pesquisa:
@@ -37,5 +37,5 @@ for i in range((len(y))):
 #Formatação dos dados para Exportação.
 json_data = json.dumps(data).encode('utf8')
 pdObj = pandas.read_json(json_data, orient='index', encoding='utf8')
-csvData = pdObj.to_csv('output/%s.csv'%query ,index=False)
-ExitDriver()
+csvData = pdObj.to_csv('/Users/FernandoZanchitta/PycharmProjects/Pegasus de ford/output/%s.csv'%query ,index=False)
+exitdriver(driver)

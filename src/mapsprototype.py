@@ -1,8 +1,8 @@
 # coding: utf-8
 import requests, json
 import time
-from scrapping import acessoQedu
-from scrapping import checarSistemaEnsino
+from scrapping import acessoqedu
+from scrapping import checarsistemaensino
 
 def pesquisaportexto(query, api_key):
     query = query.replace(' ', '+')
@@ -49,15 +49,15 @@ def inserirnovaescola(driver,data, school_json,api_key):
     #print("Nome: "+ data['name'])
     #print("Endereço completo: "+ data['formatted_address'])
     #print("Cidade: "+ data['formatted_address'].split(",")[2])
-    inep, cidade, qedu_url = acessoQedu(driver,data['name'],data['formatted_address'].split(",")[2].split("-")[0])
+    inep, cidade, qedu_url = acessoqedu(driver,data['name'],data['formatted_address'].split(",")[2].split("-")[0])
     data['Inep'] = inep
     data['city'] = cidade
     data['qedu_url'] = qedu_url
-    data['Sistema de Ensino'] = checarSistemaEnsino(driver,data['website'])
+    data['Sistema de Ensino'] = checarsistemaensino(driver,data['website'])
     return data
 
 def pesquisanextpage(next_page,api_key):
-    time.sleep(0.5)
+    time.sleep(2)
     url = '''
 https://maps.googleapis.com/maps/api/place/textsearch/json?
 pagetoken=%s&key=%s

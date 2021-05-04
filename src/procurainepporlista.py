@@ -1,9 +1,9 @@
 from selenium import webdriver
 import time
 import pandas as pd
-from scrapping import pesquisaGoogleSiteTelefone
-from scrapping import acessoQedu
-from scrapping import ExitDriver
+from scrapping import pesquisagooglesitetelefone
+from scrapping import acessoqedu
+from scrapping import exitdriver
 
 # def pesquisa_google_qedu(escola,cidade):
 #     try:
@@ -67,7 +67,7 @@ from scrapping import ExitDriver
 #             city = driver.find_elements_by_xpath('//*[@class="subnav-title"]/ul/li [3]')[0].text
 #         except IndexError:
 #             city = cidade
-#         #CodigoInep = incategory.find_element_by_tag_name("tbody").find_element_by_tag_name("tr").find_element_by_tag_name("td")
+#         # CodigoInep = incategory.find_element_by_tag_name("tbody").find_element_by_tag_name("tr").find_element_by_tag_name("td")
 #     else:
 #         inep = ""
 #         city = cidade
@@ -75,22 +75,22 @@ from scrapping import ExitDriver
 PATH = "/Users/FernandoZanchitta/Documents/chromedriver"
 driver = webdriver.Chrome(PATH)
 input = input("Nome do Arquivo:\n")
-data = pd.read_csv('/Users/FernandoZanchitta/PycharmProjects/Pegasus de ford/%s.csv'%(input))
+data = pd.read_csv('/Users/FernandoZanchitta/PycharmProjects/Pegasus de ford/%s.csv' % input)
 data.columns = [col.replace(' ', '_').lower() for col in data.columns]
 if "telefone" not in data.columns:
-    data.insert(2,"telefone","-")
-if "company_domain_name" not in data.columns:
-    data.insert(2, "company_domain_name", False)
-for i in range(data['name'].count()):
-    if data.loc[i,'company_domain_name'] == False or pd.isna(data.loc[i,'company_domain_name']):
-        data.loc[i,'company_domain_name'], data.loc[i,'telefone']  = pesquisaGoogleSiteTelefone(driver,data.loc[i,'name'],data.loc[i,'city'])
+    data.insert(2, "telefone", "-")
+if "dominio_(url_do_site_da_escola)" not in data.columns:
+    data.insert(2, "dominio_(url_do_site_da_escola)", False)
+for i in range(data['deal_name'].count()):
+    if data.loc[i, 'dominio_(url_do_site_da_escola)'] is False or pd.isna(data.loc[i, 'dominio_(url_do_site_da_escola)']):
+        data.loc[i, 'dominio_(url_do_site_da_escola)'], data.loc[i, 'telefone'] = pesquisagooglesitetelefone \
+            (driver, data.loc[i, 'deal_name'], data.loc[i, 'cidade'])
 
-csvoutput = data.to_csv('/Users/FernandoZanchitta/PycharmProjects/Pegasus de ford/output/%s_site.csv'%(input))
-data.insert(1,"inep",False)
-data.insert(5,"link_qedu",False)
-for i in range(data['name'].count()):
-        if data.loc[i, "inep"] == False:
-            data.loc[i, 'inep'] ,data.loc[i,'cidade_encontrada'], data.loc[i, 'link_qedu'] = acessoQedu(driver,data.loc[i,'name'],data.loc[i,'city'])
-csvoutput = data.to_csv('/Users/FernandoZanchitta/PycharmProjects/Pegasus de ford/output/%s_Tel_site_qedu.csv'%(input))
-
-ExitDriver(driver)
+csvoutput = data.to_csv('/Users/FernandoZanchitta/PycharmProjects/Pegasus de ford/output/%s_site.csv' % input)
+data.insert(1, "inep", False)
+data.insert(5, "link_qedu", False)
+for i in range(data['deal_name'].count()):
+    if data.loc[i, "inep"] == False:
+        data.loc[i, 'inep'], data.loc[i, 'cidade_encontrada'], data.loc[i, 'link_qedu'] = acessoqedu(driver, data.loc[i, 'deal_name'], data.loc[i, 'cidade'])
+csvoutput = data.to_csv('/Users/FernandoZanchitta/PycharmProjects/Pegasus de ford/output/%s_Tel_site_qedu.csv' % input)
+exitdriver(driver)
