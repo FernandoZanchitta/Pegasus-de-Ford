@@ -32,7 +32,7 @@ driver.delete_all_cookies()
 data = {}
 for i in range((len(y))):
     data[str(i)] = {}
-    data[str(i)] = inserirnovaescola(driver,data[str(i)], y[i],api_key)
+    data[str(i)] = inserirnovaescola(driver,data[str(i)], y[i],api_key,PATH)
 
 #Formatação dos dados para Exportação.
 json_data = json.dumps(data).encode('utf8')

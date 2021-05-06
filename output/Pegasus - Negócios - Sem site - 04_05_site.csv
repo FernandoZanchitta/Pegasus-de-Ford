@@ -1,0 +1,300 @@
+,deal_id,deal_name,dominio,telefone,cidade,time_que_vai_atacar/está_atacando_a_lead,sistema_de_ensino,nível_de_crença,qualificação_socioeconômica,dominio_(url_do_site_da_escola),associated_company_id,associated_company
+0,3941255012,Escola Alternativa,https://www.facebook.com/minhaalternativa/,-,Teresina,,,E. Orbitando,C/D,,5124555654,Escola Alternativa
+1,2912232160,Centro Educacional Montovani Sabatine,https://pt-br.facebook.com/cemontovanisabatine,(21) 2651-2674,São João de Meriti,Conquista,,X. Churn,C/D,,4449749452,Centro Educacional Montovani Sabatine
+2,1996880919,Colégio Flamboyant,http://colegioflamboyants.com.br/,-,Salvador,FV,,D. Para puxar,C/D,,3872891549,Colégio Flamboyant
+3,1442728964,Centro Educacional Império do Saber,https://imperiocolegio.com.br/,(71) 3259-0593,Salvador,FV,,D. Para puxar,,,2835417004,Centro Educacional Império do Saber
+4,1442729042,Colégio Hildeberto Cardoso,http://www.chcardoso.com.br/,(71) 3011-6776,Salvador,FV,,D. Para puxar,C/D,,2835416973,Colégio Hildeberto Cardoso
+5,1442767032,Colégio Porto Alvorada,http://www.portoalvorada.com.br/,(14) 3621-6779,Jaú,FV,,E. Orbitando,A/B,,2835200322,Colégio Porto Alvorada
+6,2272060390,Colégio Conego,https://conego.com.br/,(85) 4012-0770,Fortaleza,FV,,D. Para puxar,A/B,,2835212008,Colégio Cônego
+7,1442729022,Colégio Jardins,https://colegiojardins.com.br/,(79) 3085-0479,Aracaju,FV,,D. Para puxar,A/B,,2835212004,Colégio Jardins
+8,2887785357,Colégio Ômega,https://www.instagram.com/colegioomegaaracaju/?hl=pt-br,(79) 3245-2017,Aracaju,FV,,D. Para puxar,C/D,,4422821207,Colegio Omega
+9,1447075808,Colégio Madre De Deus Unidade II,http://www.colegiomadrededeus.com.br/unidade-02/,(81) 3341-1747,Recife,,,D. Para puxar,A/B,,2835404324,Colégio Madre De Deus Unidade II
+10,1442766885,Colégio Santa Maria,https://colegiosantamariace.com/,-,Tiangua,,,D. Para puxar,C/D,,2835452766,Colégio Santa Maria
+11,1442735627,Colégio Maria Imaculada,https://www.cmirj.com.br/,(21) 2264-4998,Rio de Janeiro,,,E. Orbitando,C/D,,2835386934,Colégio Maria Imaculada
+12,1442729048,Colégio Anglo Morumbi,https://colegioanglomorumbi.com.br/,(11) 3740-1000,São Paulo,,,E. Orbitando,A/B,,2834947129,Colégio Anglo Morumbi
+13,1442735629,Colégio Presidente Médici,https://pt-br.facebook.com/Medici2014,(85) 3228-2206,Fortaleza,Conquista,,D. Para puxar,Premium,,2835404360,Colégio Presidente Médici
+14,4281721135,INSTITUTO EDUCACIONAL NOVO HORIZONTE,https://www.coc.com.br/nossas-escolas/instituto-educacional-novo-horizonte,-,Estreito,,,,,,5285666093,INSTITUTO EDUCACIONAL NOVO HORIZONTE
+15,4307719250,URCAMP,https://www.urcamp.tche.br/campus/dom-pedrito,(53) 3243-2446,Dom Pedrito,,,,,,5285518782,URCAMP
+16,4281373976,MILÊNIO COC SANTA ROSA,https://www.coc.com.br/nossas-escolas/instituto-educacional-milenio,(16) 3954-2524,Santa Rosa de Viterbo,,,,C/D,,5285629506,MILÊNIO COC SANTA ROSA
+17,4164053316,CENTRO EDUCACIONAL EVOLUÇÃO,https://www.coc.com.br/nossas-escolas/centro-educacional-evolucao,(37) 3431-1492,Bambuí,,,,,,5285614433,CENTRO EDUCACIONAL EVOLUÇÃO
+18,4164001922,CENTRO EDUCACIONAL FREITAS CAVALCANTI,https://www.informecadastral.com.br/cnpj/centro-educacional-freitas-cavalcanti-ltda-28102797000238,-,Terra Boa,,,,,,5285615680,CENTRO EDUCACIONAL FREITAS CAVALCANTI
+19,4164024618,CENTRO EDUCACIONAL MARIA NILZA,https://www.coc.com.br/nossas-escolas/centro-educacional-maria-nilza,(77) 3441-0215,Brumado,,,,C/D,,5285541963,CENTRO EDUCACIONAL MARIA NILZA
+20,4125584168,COLÉGIO HONORATO JACQUES,https://funlec.com.br/filiais/honorato-jacques/35,(67) 3255-2222,Bonito,,,,,,5285552699,COLÉGIO HONORATO JACQUES
+21,4177267539,COLÉGIO EDUC,https://pt-br.facebook.com/ColegioEduc,(35) 3536-1395,Itaú de Minas,,,,C/D,,5285550547,COLÉGIO EDUC
+22,4177189942,COLÉGIO DOM PEDRO,https://www.dompedro.g12.br/,(11) 4137-8206,Taboão da Serra,,,,,,5285536876,COLÉGIO DOM PEDRO
+23,4164019177,PROFMIX,https://pt-br.facebook.com/ProfMixEI/,(19) 3895-7843,Socorro,,,,,,5285522182,PROFMIX
+24,4163989832,CENTRO EDUCACIONAL JARDIM AMÁLIA,https://www.colegioceja.com.br/,(24) 3342-2713,Volta Redonda,,,,C/D,,5285536872,CENTRO EDUCACIONAL JARDIM AMÁLIA
+25,4307175465,COLÉGIO MALTA,https://pt-br.facebook.com/Col%C3%A9gio-Malta-2167564579937444/,(37) 3261-5849,Lagoa da Prata,,,,,,5285515708,COLÉGIO MALTA
+26,4274254475,ESCOLA UNIVERSO POLO IPIXUNA,https://consultas.plus/lista-de-empresas/para/ipixuna-do-para/13497820000425-escola-universo-de-paragominas-eireli/,(91) 98727-6299,Ipixuna do Pará,,,,,,5285518769,ESCOLA UNIVERSO POLO IPIXUNA
+27,4125744838,COLÉGIO HERMESINDO ALONSO GONZALEZ,https://funlec.com.br/filiais/hermesindo-alonso-gonzales/34,(67) 3524-5494,Três Lagoas,,,,,,5285528543,COLÉGIO HERMESINDO ALONSO GONZALEZ
+28,4163931228,CENTRO DE ENSINO MARIA ANGELIM - CEMA,https://mariaangelim.com.br/,(92) 3641-1142,Manaus,,,,,,5285541964,CENTRO DE ENSINO MARIA ANGELIM - CEMA
+29,4163969424,ORGANIZAÇÃO SANTA CLARA DE ENSINO UNIFICADO,https://www.coc.com.br/nossas-escolas/organizacao-santa-clara-de-ensino-unificado,(18) 3652-9755,Penápolis,,,,,,5285541969,ORGANIZAÇÃO SANTA CLARA DE ENSINO UNIFICADO
+30,4307491687,COLÉGIO LE PERINI,https://www.leperini.com.br/,(19) 3875-4731,Indaiatuba,,,,,,5285549003,COLÉGIO LE PERINI
+31,4281266078,ESCOLA TÉCNICA VALE DOS CARAJAS,https://etvc.grupont.com.br/,(94) 3346-8710,Parauapebas,,,,,,5285522184,ESCOLA TÉCNICA VALE DOS CARAJAS
+32,4281254422,ESCOLA TECNICA DE FORMACAO GERENCIAL - UNIFEMM,https://www.coc.com.br/nossas-escolas/escola-tecnica-de-formacao-gerencial-unifemm,(31) 2106-2106,Sete Lagoas,,,,,,5285531188,ESCOLA TECNICA DE FORMACAO GERENCIAL - UNIFEMM
+33,4281157637,SOCIEDADE EDUCATIVA EQUILÍBRIO,https://pt-br.facebook.com/sociedadeeducativaequilibrio,(14) 3282-4107,Duartina,,,,,,5285538225,SOCIEDADE EDUCATIVA EQUILÍBRIO
+34,4161636052,CENTRO DE EDUCACAO PROJETAR,http://ceprojetar.com.br/,(27) 3264-3567,Linhares,,,,,,5285524204,CENTRO DE EDUCACAO PROJETAR
+35,4162493425,COC VARGEM GRANDE DO SUL,https://www.instagram.com/coc.vgsul/,-,Vargem Grande do Sul,,,,,,5285546863,COC VARGEM GRANDE DO SUL
+36,4176511687,COLÉGIO ALPHA VIRADOURO,https://www.facebook.com/ColegioAlphaViradouro/,(17) 3392-3938,Viradouro,,,,,,5285627624,COLÉGIO ALPHA VIRADOURO
+37,4176487581,COLÉGIO ALFA,https://alfacolegio.com.br/,(21) 2671-4730,Duque de Caxias,,,,,,5285534745,COLÉGIO ALFA
+38,4168790899,COC GUANABARA,https://www.coc.com.br/nossas-escolas/todas/5,-,Rio de Janeiro,,,,,,5285536873,COC GUANABARA
+39,4306808352,COLÉGIO EDUKANDARIUM MONDINI - UNIDADE I E II,https://edukandariummondini.com.br/,(11) 2280-2435,São Paulo,,,,,,5285629518,COLÉGIO EDUKANDARIUM MONDINI - UNIDADE I E II
+40,4176482460,COLÉGIO ALCANCE - EF,https://www.coc.com.br/nossas-escolas/colegio-alcance-ef,(12) 3952-2190,Jacareí,,,E. Orbitando,C/D,,5285636034,COLÉGIO ALCANCE - EF
+41,4170488781,COC SÃO JOÃO,https://www.coc.com.br/nossas-escolas/coc-sao-joao,(19) 3623-1523,São João da Boa Vista,,,,,,5285515719,COC SÃO JOÃO
+42,4176464760,COLÉGIO EDUKANDARIUM MONDINI,https://edukandariummondini.com.br/,(11) 2280-2435,São Paulo,,,,,,5285552706,COLÉGIO EDUKANDARIUM MONDINI
+43,4176464569,COLÉGIO EDUCAR RIO VERDE,https://www.coc.com.br/nossas-escolas/colegio-educar-rio-verde,(64) 3624-2638,Rio Verde,,,,C/D,,5284588281,COLÉGIO EDUCAR RIO VERDE
+44,4176420851,COLÉGIO EDUCAR ACREÚNA,https://www.coc.com.br/nossas-escolas/colegio-educar-acreuna,(64) 3645-1143,Acreúna,,,,,,5285666084,COLÉGIO EDUCAR ACREÚNA
+45,4307394725,COLÉGIO ASTER,https://www.coc.com.br/nossas-escolas/colegio-aster,(47) 3367-5364,Balneário Camboriú,,,,,,5285533392,COLÉGIO ASTER
+46,4307485789,COLÉGIO AGNUS DEI,https://www.colegioagnusdei.com/,(82) 3352-1097,Rio Largo,,,,,,5284588280,COLÉGIO AGNUS DEI
+47,4161099268,JAÚ CONEXÃO,http://www.conexaojau.com.br/,-,Jaú,,,,,,5285636018,JAÚ CONEXÃO
+48,4175938488,COLÉGIO COSTA AGUIAR,https://colegiocostaaguiar.com.br/,(11) 2721-5720,São Paulo,,,,,,5285538215,COLÉGIO COSTA AGUIAR
+49,4169848074,COC - COLÉGIO SÃO PAULO,https://www.coc.com.br/nossas-escolas/coc-colegio-sao-paulo,(79) 3218-3500,Aracaju,,,,A/B,,5285545149,COC - COLÉGIO SÃO PAULO
+50,4169861161,COC BERTIOGA,https://www.instagram.com/cocbertioga/,-,INDAIA,,,,,,5285629511,COC BERTIOGA
+51,4169810112,CENTRO EDUCACIONAL SISTEMA MASTER COC,https://www.coc.com.br/nossas-escolas/centro-educacional-sistema-master,-,Camaçari,,,,C/D,,5285531179,CENTRO EDUCACIONAL SISTEMA MASTER
+52,4161021565,JARDIM ESCOLA SONHO VIVO,https://www.melhorescola.com.br/escola/jardim-escola-sonho-vivo,-,Macau,,,,,,5285520260,JARDIM ESCOLA SONHO VIVO
+53,4280332950,COLÉGIO VITÓRIA,https://www.coc.com.br/nossas-escolas/colegio-vitoria,(61) 3533-5300,Brasília,,,,,,5285627623,COLÉGIO VITÓRIA
+54,4169845516,CENTRO EDUCACIONAL SÃO JOÃO EVANGELISTA,https://colegiosaojoaoevangelista.com.br/,(73) 3011-5063,Teixeira de Freitas,,,,,,5285540103,CENTRO EDUCACIONAL SÃO JOÃO EVANGELISTA
+55,4169849490,CENTRO EDUCACIONAL SANTA LUZ,https://www.coc.com.br/nossas-escolas/centro-educacional-santa-luz,(17) 3331-5200,Guaíra,,,,,,5285538228,CENTRO EDUCACIONAL SANTA LUZ
+56,4113668254,ARUA EDUCACIONAL - Novo negócio,http://www.colegioarua.com.br/,(11) 4795-1852,Mogi das Cruzes,,,,,,5285538221,ARUA EDUCACIONAL
+57,4175869271,COLÉGIO CONHECER,https://colegioconhecer.com/,(27) 3763-1142,São Mateus,,,,,,5285614426,COLÉGIO CONHECER
+58,4161013389,INCENTIVO COC,https://www.coc.com.br/nossas-escolas/incentivo-coc,(17) 3442-3999,Fernandópolis,,,,,,5284588274,INCENTIVO COC
+59,4169809172,CENTRO EDUCACIONAL RENASCER COC,http://www.renascercoc.com.br/,(16) 3945-0555,Sertãozinho,,,,,,5285534747,CENTRO EDUCACIONAL RENASCER COC
+60,4175879905,COLÉGIO BOM SAMARITANO,https://www.coc.com.br/nossas-escolas/colegio-bom-samaritano,(16) 3832-2800,Ipuã,,,,,,5285534746,COLÉGIO BOM SAMARITANO
+61,4161018896,IMPERATRICE COLÉGIO,http://www.colegioimperatrice.com.br/,-,Caraguatatuba,,,,,,5285531176,IMPERATRICE COLÉGIO
+62,4161036717,INSTITUTO TOMAS DE AQUINO,https://www.diariocidade.com/go/campinorte/guia/instituto-tomas-de-aquino-15977689000186/,(32) 3215-4053,QUADRA 04,,,,,,5285627632,INSTITUTO TOMAS DE AQUINO
+63,4175881798,COLÉGIO COC TERESINA,https://cocteresina.com.br/,(86) 3232-5087,Teresina,,,,,,5285517349,COLÉGIO COC TERESINA
+64,4280124417,COLÉGIO CESI,https://www.melhorescola.com.br/escola/colegio-de-estudos-integrados-cesi,(33) 3332-4563,Manhuaçu,,,,,,5285629504,COLÉGIO CESI
+65,4161020212,INSTITUTO SOCIAL TUCANO,http://www.escolaisttucano.com.br/,(75) 99191-4856,Tucano,,,,,,5285546868,INSTITUTO SOCIAL TUCANO
+66,4306795291,PADRE JOSÉ ANCHIETA - MATRIZ DE CAMARAGIBE,https://www.coc.com.br/nossas-escolas/padre-jose-anchieta-matriz-de-camaragibe,-,Matriz de Camaragibe,,,,,,5285636031,PADRE JOSÉ ANCHIETA - MATRIZ DE CAMARAGIBE
+67,4175866605,COLÉGIO CETK,https://www.cetk.com.br/,(48) 3033-3099,Palhoça,,,,,,5285552694,COLÉGIO CETK
+68,4280320305,ESCOLA ATRIUM,https://www.facebook.com/escola.atriumgo/,(62) 3314-5702,Anápolis,,,,,,5285538213,ESCOLA ATRIUM
+69,4307202626,REP - REDE DE ENSINO PROPOSITO,https://pt-br.facebook.com/soumaisrep/,(63) 3476-1641,Colinas do Tocantins,,,,,,5285534743,REP - REDE DE ENSINO PROPOSITO
+70,4175851925,COLÉGIO CENEL,https://www.coc.com.br/nossas-escolas/colegio-cenel,(61) 3483-5257,Brasília,,,,A/B,,5284588275,COLÉGIO CENEL
+71,4169791686,SÃO JOSÉ COLÉGIO ENSINO FUNDAMENTAL E MÉDIO,https://www.coc.com.br/nossas-escolas/sao-jose-colegio-ensino-fundamental-e-medio,(42) 3446-2212,Prudentópolis,,,,,,5285552691,SÃO JOSÉ COLÉGIO ENSINO FUNDAMENTAL E MÉDIO
+72,4280123686,COC TAMBAÚ,https://www.coc.com.br/nossas-escolas/escola-arco-iris,-,Tambaú,,,,,,5285629519,COC TAMBAÚ
+73,4175754761,COLEGIO BATISTA,https://www.melhorescola.com.br/escola/colegio-batista-de-itacare,(73) 3251-3439,Itacaré,,,,,,5285541965,COLEGIO BATISTA 
+74,1442735669,Colégio Jesus Crucificado,https://www.cjc.com.br/,(81) 3241-6330,Recife,FV,,D. Para puxar,C/D,,2835429632,Colégio Jesus Crucificado
+75,4169742941,PH3 CENTRO EDUCACIONAL,https://www.colegioph3.com.br/,-,Parnamirim,,,,,,5285552692,PH3 CENTRO EDUCACIONAL
+76,4125145141,COLÉGIO ASSOCIADOS DA ILHA,http://ilha.notredame.org.br/,-,Rio de Janeiro,,,,,,5285533397,COLÉGIO ASSOCIADOS DA ILHA
+77,4306678313,COLÉGIO MAGISTER ITAÍ,https://www.facebook.com/colegiomagisteritai/,,Itaí,,,,,,5285615672,COLÉGIO MAGISTER ITAÍ
+78,4175752741,COLÉGIO ÁTOMO - EM,https://www.colatomo.com.br/,(18) 3908-4844,Presidente Prudente,,,,,,5285554006,COLÉGIO ÁTOMO - EM
+79,4169688260,OSE COC,https://colegioose.com.br/,(15) 2101-3800,Sorocaba,,,,,,5285666083,OSE COC
+80,4280030905,COLEGIO PROBO COC,https://www.coc.com.br/nossas-escolas/colegio-probo-coc,-,Livramento de Nossa Senhora,,,,,,5285614420,COLEGIO PROBO COC
+81,4307071005,NEC - NÚCLEO DE EDUCAÇÃO E CULTURA,https://www.coc.com.br/nossas-escolas/nec-nucleo-de-educacao-e-cultura,-,Jardinópolis,,,,,,5285541960,NEC - NÚCLEO DE EDUCAÇÃO E CULTURA
+82,4155405015,COLÉGIO PLUS COC,https://www.colegioplus.net/,(17) 3321-7575,Barretos,FV,,,A/B,,5285518773,COLÉGIO PLUS COC
+83,4279937203,COLEGIO OPCAO & CONHECIMENTO,http://grupoeducacionalopcao.com.br/,-,Monte Alto,,,,,,5285531182,COLEGIO OPCAO & CONHECIMENTO
+84,4175748919,COLÉGIO ÁGAPE VARGINHA,https://colegioagapedom.com.br/nossa-historia/,-,Varginha,,,,,,5285536874,COLÉGIO ÁGAPE VARGINHA
+85,4168117593,ESCOLA SANTO ÂNGELO,https://www.escolasantoangelo.com.br/,(42) 3028-0060,Ponta Grossa,,,,,,5285520253,ESCOLA SANTO ÂNGELO
+86,4175690986,COC MATÃO EM,http://cocmatao.com.br/,(16) 3383-7070,Matão,,,,,,5285553998,COC MATÃO EM
+87,4169682178,CENTRO EDUCACIONAL PIAGET,https://www.educacionalpiaget.com.br/,(71) 3625-5763,Dias d'Ávila,,,,,,5285627631,CENTRO EDUCACIONAL PIAGET
+88,4169618052,CENTRO EDUCACIONAL FREITAS CAVALCANTI,https://www.coc.com.br/nossas-escolas/centro-educacional-freitas-cavalcanti,(44) 3068-1718,Campo Mourão,,,,,,5285554004,CENTRO EDUCACIONAL FREITAS CAVALCANTI
+89,4175674518,COC LEME,https://cocleme.com.br/,(19) 3573-3310,Leme,,,,,,5285552695,COC LEME
+90,4175693476,COLÉGIO FAMA,https://www.colegiofama.com.br/,(34) 3411-9700,Iturama,,,,,,5285627625,COLÉGIO FAMA
+91,4169657360,ESCOLA SAINT GEORGES,https://www.escolastg.com.br/,(21) 2437-8555,Rio de Janeiro,,,,,,5285614428,ESCOLA SAINT GEORGES
+92,4168078637,ESCOLA SABIDINHO SUPREMUS,https://pt-br.facebook.com/sabidinhosupremus/,(44) 3252-5191,Nova Esperança,,,,,,5285614434,ESCOLA SABIDINHO SUPREMUS
+93,4175651967,COC SALTO,https://www.cocsalto.com.br/,(11) 99227-4140,Salto,,,,,,5285666091,COC SALTO
+94,4169592771,ESCOLA ROCHEL,https://www.coc.com.br/nossas-escolas/escola-rochel,(35) 99573-5662,Ouro Fino,,,,,,5285518779,ESCOLA ROCHEL
+95,4279964071,COLÉGIO MEIRELLES LEME,https://www.coc.com.br/nossas-escolas/colegio-meirelles-leme,(11) 3714-5684,São Paulo,,,,,,5285627628,COLÉGIO MEIRELLES LEME
+96,4169594457,ESCOLA PORTAL DO SABER,https://www.melhorescola.com.br/escola/escola-portal-do-saber,(62) 3361-2267,Itapaci,,,,,,5285629503,ESCOLA PORTAL DO SABER
+97,4175645764,COC FRANCA,http://www.cocfranca.com.br/,(16) 3707-1000,Franca,,,,,,5285614436,COC FRANCA
+98,4130161832,COLÉGIO MARIA LAGO BARCELLOS,https://funlec.com.br/filiais/prof-maria-lago-barcellos/37,(67) 3901-2860,Campo Grande,,,,,,,
+99,4169587557,COLÉGIO NOVA GERAÇÃO,https://colegiocngparanagua.com.br/,(41) 3423-2352,Paranaguá,,,,,,5285522188,COLÉGIO NOVA GERAÇÃO
+100,4175597384,CENTRO EDUCACIONAL WALLON,https://pt-br.facebook.com/wallonmadrededeus/,(71) 3604-1380,Madre de Deus,,,,,,5285549002,CENTRO EDUCACIONAL WALLON
+101,4169542267,ESCOLA NOSSA SENHORA DE FÁTIMA,https://www.ensf.com.br/,(24) 2252-0039,Três Rios,,,,,,5285550549,ESCOLA NOSSA SENHORA DE FÁTIMA
+102,4175612237,COLEGIO DIVINO SALVADOR JUNDIAÍ,https://divinojundiai.com.br/,(11) 4588-1365,Jundiaí,,,,A/B,,5285536878,COLEGIO DIVINO SALVADOR JUNDIAÍ
+103,4175577904,COLÉGIO DOM BOSCO,http://www.cocguariba.com.br/cocguariba/,(16) 3251-8711,Guariba,,,,,,5285614431,COLÉGIO DOM BOSCO
+104,4175581545,COLÉGIO CORAÇÃO IMACULADO DE MARIA,https://www.coc.com.br/nossas-escolas/colegio-coracao-imaculado-de-maria,(17) 3245-2049,José Bonifácio,,,,,,5285629516,COLÉGIO CORAÇÃO IMACULADO DE MARIA
+105,4174851485,COLÉGIO COC JARDIM BOTÂNICO,https://cocjardimbotanico.com.br/,(61) 3254-7323,Brasília,,,,,,5285536880,COLÉGIO COC JARDIM BOTÂNICO
+106,4280025160,COLÉGIO INTEGRADO JAGUARIÚNA,https://integradoedu.com.br/,(19) 3867-1024,Jaguariúna,,,,,,5285549001,COLÉGIO INTEGRADO JAGUARIÚNA
+107,4169490124,CENTRO ELO,https://colegioelo.com.br/,(81) 3080-0101,Jaboatão dos Guararapes,,,,,,5285627635,CENTRO ELO
+108,4169517223,COC AMPARO,https://www.cocamparo.com.br/,(19) 3938-3805,Amparo,,,,,,5285636027,COC AMPARO
+109,4078001193,Colégio Haya - Novo negócio,https://www.haya.com.br/,-, ,,,,,,,
+110,4279022554,FV Colégio Nota 10,https://www.colegionota10.com.br/,(67) 3321-3238, ,,,,,,,
+111,4272723489,FV Colégio Binatus,https://es.foursquare.com/v/col%C3%A9gio-bionatus/5218c54c11d2f9bf3e9ffafe,(67) 3324-3277, ,,,,,,,
+112,4279079860,FV Colégios Santa Marcelina,https://www.santamarcelina.org.br/colegios/saopaulo/,(11) 3677-0600, ,,,,,,,
+113,4278575392,Curso Soma,http://www.soma.com.br/,(31) 3241-0908,Belo Horizonte ,,,D. Para puxar,,,,
+114,4277816296,FV Coleguium,https://www.facebook.com/raimundolucas.santos,-, ,,,,,,,
+115,1442741437,Colégio Santa Cecilia,https://www.santacecilia.com.br/,(85) 3064-2377,Fortaleza,,,D. Para puxar,Premium,,2835449908,Colégio Santa Cecilia
+116,1442729090,Ícaro colégio e curso,http://www.icarocolegioecurso.com/,(84) 3272-2678,Parnamirim,,,E. Orbitando,C/D,,2834947143,Ícaro Colégio e Curso
+117,1442729099,Colégio Objetivo Baixada Santista,http://www.objetivobaixada.com.br/,-,Santos,,,E. Orbitando,A/B,,2835211871,Colégio Objetivo Baixada Santista
+118,4807257130,Colégio São Salvador,https://www.escol.as/305797-colegio-sao-salvador,-,Umbauba,,,E. Orbitando,C/D,,"2835449740, 5292336951","Escolas São Salvador, Colégio São Salvador"
+119,2868558587,Colégio Rubia Coelho,https://colegiorubiacoelho.com.br/,(33) 3221-0928,Governador Valadares,,,X. Churn,C/D,,4404842620,Colégio Rubia Coelho
+120,3494722795,Complexo Educacional Agostiniano,https://pt-br.facebook.com/educacionalagostiniano/,(82) 3421-4445,Palmeira dos Índios,,,E. Orbitando,C/D,,4897804333,Complexo Educacional Agostiniano
+121,1442755554,Escola Doméstica de Natal,https://pt.wikipedia.org/wiki/Escola_Dom%C3%A9stica_de_Natal,(84) 3215-2900,Natal,FV,,D. Para puxar,A/B,,2835439443,Escola Doméstica de Natal
+122,3422113499,Escola Arte de Educar de Jacundá,https://pt-br.facebook.com/pages/category/School/Escola-Arte-de-Educar-de-Jacund%C3%A1-127934980704532/,-,Jacundá,FV,,E. Orbitando,C/D,,4842629742,Escola Arte de Educar de Jacundá
+123,1442379502,Colégio Novo Horizonte,http://www.colegionovohorizonte.com.br/,(11) 2030-4415,São Paulo,,,E. Orbitando,A/B,,2835473732,Colégio Novo Horizonte
+124,3014737917,Dom Bosco Matinhos,https://pt-br.facebook.com/domboscomatinhos/,-,Matinhos,,,E. Orbitando,C/D,,4539894078,Dom Bosco Matinhos
+125,1442705121,Colégio Salgueiro,https://colegiosalgueiro.com.br/escola-em-interlagos/,(11) 5923-2333,São Paulo,,,E. Orbitando,A/B,,2834946980,Colégio Salgueiro
+126,1442735821,Colégio Canello Marques,http://www.colegiocanellomarques.com/,-,São Paulo,,,X. Churn,A/B,,2835404322,Colégio Canello Marques
+127,4983687463,Colégio Santa Úrsula de Maceió,https://ursula.com.br/,-,Maceió,FV,,D. Para puxar,Premium,,"2835416809, 4516499177","Colégio Santa Úrsula, Colégio Santa Úrsula"
+128,4048031872,Colégio Técnico Industrial,https://pt-br.facebook.com/CTIAraucaria/?rf=188812737800260,(41) 3614-8200,Araucária,,,E. Orbitando,C/D,,5255357687,Colégio Técnico Industrial
+129,3960951366,Colégio Maria José Omena,https://www.educamaisbrasil.com.br/escolas/colegio-maria-jose-omena,(82) 3321-6010,Maceió,,,E. Orbitando,C/D,,5149684427,Colégio Maria José Omena
+130,3980941750,Colégio Visão Monte Alto,https://pt-br.facebook.com/colegiovisao.montealto,(16) 3242-7110,Monte Alto,,,E. Orbitando,C/D,,5172490709,Colégio Visão Monte Alto
+131,2980307059,Escola Menino Jesus,https://escolameninojesus.com.br/,(81) 3241-1842,Olinda,,,X. Churn,C/D,,4516505446,Escola Menino Jesus
+132,1442735547,Século Colégio e Curso,https://www.instagram.com/colegio_seculo/?hl=pt-br,-,João Pessoa,,,E. Orbitando,C/D,,2835473763,Século Colégio e Curso
+133,1442741387,Colégio Betel,http://www.colegiobetelpiresdorio.com.br/colegio.php,(64) 3461-8113,Pires do Rio,,,E. Orbitando,C/D,,2835449901,Colégio Betel
+134,1442721981,Colégio Opção Minas Gerais,https://ensinoopcao.com.br/,-,Uberaba,,,E. Orbitando,,,2835211916,Colégio Opção Minas Gerais
+135,1442766934,Centro Integrado de Ensino Educarte,https://educarteescola.com.br/,(22) 2771-6968,Rio das Ostras,,,E. Orbitando,C/D,,2835420545,Centro Integrado de Ensino Educarte
+136,4021720341,Escola do Futuro de Manhuaçu,https://pt-br.facebook.com/escoladofuturomg,(33) 3331-1214,Manhuaçu,,,X. Churn,C/D,,5219707755,Escola do Futuro de Manhuaçu
+137,1442729056,Colégio Sejan,https://www.sejan.com.br/,(38) 3821-1070,Janaúba,,,E. Orbitando,C/D,,2834947102,Colégio Sejan
+138,1447070844,Colégio São Miguel,https://pt-br.facebook.com/colegiosaomiguelmg,-,Passa Quatro,FV,,X. Churn,C/D,,2835404370,Colégio São Miguel
+139,1600142557,Instituto Paulo Freire,https://pt-br.facebook.com/institutopaulofreiregba,(83) 3271-3713,Guarabira,,,X. Churn,C/D,,3051398323,Instituto Paulo Freire
+140,1447082364,Instituto Dona Placidina,https://www.placidina.com.br/,(11) 4799-5666,Mogi das Cruzes,,,E. Orbitando,Premium,,2835211804,Instituto Dona Placidina
+141,3577086027,Colégios  COC Santo Antonio,https://www.coc.com.br/nossas-escolas/colegio-santo-antonio-de-jesus,(75) 3162-5700,Santo Antônio de Jesus,,,X. Churn,C/D,,4969963853,Colégios  COC Santo Antonio
+142,1442719859,Colégio Maria Montessori,https://montessori-al.com.br/,(82) 3218-9999,Maceió,,,E. Orbitando,Premium,,2835404343,Colégio Maria Montessori
+143,3977147078,Escola Rogelma A F M Mello,https://pt-br.facebook.com/colegiorogelmaafmm,-,Carmo,,,E. Orbitando,C/D,,5167262938,Escola Rogelma A F M Mello
+144,1442741453,Colégio Berlaar Sagrado Coracao Jesus,https://pt-br.facebook.com/sagradoonline,(34) 3242-7555,Araguari,,,E. Orbitando,C/D,,2835211960,Colégio Berlaar Sagrado Coracao Jesus
+145,1447092437,Colégio Múltiplo,https://colegiomultiplo.com.br/,(19) 3787-8490,Campinas,Conquista,,E. Orbitando,C/D,,2835200417,Colégio Múltiplo
+146,1442715747,Escola Imaculada Conceicao,https://www.educamaisbrasil.com.br/escolas/escola-imaculada-conceicao-jaboatao-dos-guararapes,(81) 3255-2702,Jaboatão dos Guararapes,,,E. Orbitando,C/D,,2835452834,Escola Imaculada Conceicao
+147,3576895457,Colégio Ateneu — SP,https://ateneu.com.br/,(11) 4238-3155,São Caetano do Sul,,,E. Orbitando,C/D,,2835420573,Colégio Ateneu
+148,4867387751,Colégio Santa Maria Abreu Leia,https://pt-br.facebook.com/colegiosantamariadeabreu/,(81) 3542-1539,Abreu e Lima,Conquista,,X. Churn,C/D,,5160109498,Colégio Santa Maria Abreu Leia
+149,1442729007,Colégio Batista Santos Dumont,https://www.batista.g12.br/,(85) 4008-2300,Fortaleza,FV,,D. Para puxar,Premium,,2835211978,Colégio Batista Santos Dumont
+150,1442748763,Colégio Nesfa,https://www.nesfa.com.br/,(35) 3531-8208,São Sebastião do Paraíso,,,E. Orbitando,C/D,,2835449770,Colégio Nesfa
+151,1442735532,Colégio Dom Amando,http://domamando.com.br/,(93) 2101-2085,Santarém,,,X. Churn,A/B,,2835200388,Colégio Dom Amando
+152,3601567902,Curso UP ENEM,https://sistemadeensinoequipe.com.br/belemcursosespecificos/,(91) 98822-7051,Belém,,,X. Churn,C/D,,5007099297,Curso UP ENEM
+153,3586558268,Colégio objetivo Simões Filho,https://www.educamaisbrasil.com.br/escolas/colegio-objetivo-simoes-filho,(71) 3045-0647,Simões Filho,,,X. Churn,C/D,,4986132263,Colégio objetivo Simões Filho
+154,1442748595,Colégio Lider,https://www.facebook.com/liderprasempre/,(24) 2453-2278,Valença,,,X. Churn,C/D,,2835416899,Colégio Lider
+155,5102507099,Colégio Convergente,https://colegioconvergente.com.br/,(81) 3622-1421,Carpina,FV,,D. Para puxar,C/D,,,
+156,3252149392,Yduqs,https://www.yduqs.com.br/,-, ,,,,,,,
+157,2951249010,First Idiomas,http://www.firstidiomas.com/first/boituva.php,(15) 3316-5361,Boituva,,,D. Para puxar,C/D,,4488053967,First Idiomas
+158,2945705357,Máxima Centro de Estudos,https://www.facebook.com/maximacentrodeestudos/,(61) 3323-6992,Distrito Federal,,,D. Para puxar,C/D,,4482458336,Máxima Centro de Estudos
+159,2866710523,Escola Vila,https://www.escoladavila.com.br/,-, ,,,D. Para puxar,,,,
+160,2797836275,Associação Educacional do Espírito Santo,https://www.econodata.com.br/lista-empresas/ESPIRITO-SANTO/VITORIA/A/14179119000188-ASSOCIACAO-EDUCACIONAL-DO-ESPIRITO-SANTO-ASEES,-,Vitória,,,D. Para puxar,C/D,,4320494380,Associação Educacional do Espírito Santo
+161,2468912984,Colégio 24 de Maio,http://colegio24demaio.com.br/,-,São Paulo,Conquista,,E. Orbitando,A/B,,4213175084,Colégio 24 de Maio
+162,2434197347,Colégio Sagrada Família -,https://pt-br.facebook.com/sagradapg,(42) 3027-8000,Ponta Grossa,,,D. Para puxar,Premium,,4170980102,Colégio Sagrada Família
+163,2352125653,Yuri Inspira,https://www.espn.com.br/video/clipe/_/id/6535337,-, ,,,D. Para puxar,A/B,,,
+164,2337591546,Centro de Educação Infantil Caminhos do Saber,https://www.facebook.com/ieicaminhosdosaber/,-, ,,,,,,,
+165,2337581423,Colégio Menino Jesus,https://www.colegio-meninojesus.com/,(41) 3675-7285,Colombo,,,D. Para puxar,C/D,,,
+166,1786335757,Colégio Nogueira Mineiro,https://nogueiramineiro.g12.br/,(21) 2679-7621, ,FV,,,,,,
+167,1442766819,Colegio Nossa Senhora de Fátima,https://www.facebook.com/ensf.brumado/,(77) 3441-4236,Brumado,,,D. Para puxar,A/B,,2835210851,Colegio Nossa Senhora de Fátima
+168,1442735613,Instituto de Educação Santo Antônio,https://www.iesa-colegiodasirmas.com.br/,(21) 2765-9650,Nova Iguaçu,,,E. Orbitando,A/B,,2835200532,Instituto de Educação Santo Antônio
+169,2829896309,Objetivo Cosmópolis,https://www.objetivocosmopolis.com.br/,(19) 3872-4302,Cosmópolis,,,D. Para puxar,C/D,,4354685888,Objetivo Cosmópolis
+170,2008048779,Colegio Degiane Martins,https://degianemartins.com.br/,(71) 98828-5758,Lauro de Freitas,,,E. Orbitando,C/D,,4516208193,Colégio Degiane Martins
+171,1781052740,Centro de Ensino São José,http://www.cesaojose.com.br/,(11) 3735-9242,São Paulo,,,E. Orbitando,A/B,,3256137309,Centro de Ensino São José
+172,1442755555,Educandário Jardim Piedade,http://www.educandariojardimpiedade.com/,(81) 3361-2438,Jaboatão Dos Guararapes,,,D. Para puxar,A/B,,2835211964,Educandário Jardim Piedade
+173,1442748610,Colégio Salesiano Nossa Senhora da Vitória,http://www.salesiano.org.br/nsv/,(27) 3331-8500,Vitória,,,D. Para puxar,C/D,,2835200409,Colégio Salesiano Nossa Senhora da Vitória
+174,1442719918,Colégio Santi,https://www.escolasanti.com.br/,(11) 3882-6600,São Paulo,,,E. Orbitando,A/B,,2834946996,Colégio Santi
+175,1442705126,Colégio Interação Itupeva,https://www.colegiointeracaoitupeva.com.br/,(11) 4496-1790,Itupeva,,,D. Para puxar,C/D,,2835420455,Colégio Interação Itupeva
+176,1442379444,Colegio Sao Luiz,https://www.saoluiz.edu.br/,(47) 3351-1200,Brusque,,,D. Para puxar,Premium,,2835212065,Colégio São Luiz
+177,3652543386,Colégio interativo,https://www.melhorescola.com.br/escola/colegio-interativo-salvador,(71) 3230-0176,Salvador,FV,,E. Orbitando,C/D,,5046600541,Colégio interativo
+178,3576932379,Colégio Presbiteriano  Porto Feliz,https://pt-br.facebook.com/ColegioPresbiterianoFmcPortoFeliz,-,Porto Feliz,,,E. Orbitando,C/D,,4969891737,Colégio Presbiteriano  Porto Feliz
+179,1442735866,Colegio Atenas,https://www.colegioatenas.net/,(38) 3671-3399,Paracatu,,,E. Orbitando,C/D,,2835439286,Colegio Atenas
+180,1442722092,Centro Educacional Carpe Diem,http://educacaocarpediem.com.br/site/,(71) 3627-1786,Camaçari,,,E. Orbitando,C/D,,2835211833,Centro Educacional Carpe Diem
+181,1442715810,Colégio Santíssimo Senhor,http://santissimosenhor.com.br/,(82) 2126-4850,Maceió,,,E. Orbitando,A/B,,2834947096,Colégio Santíssimo Senhor
+182,1442766899,Instituto Sion,https://www.institutosion.com.br/,(95) 2121-3460,Boa Vista,,,X. Churn,C/D,,2834947002,Instituto Sion
+183,1442748581,Colégio Batista,https://www.cbbrasilia.com.br/,(61) 3242-1898,Brasília,FV,,D. Para puxar,A/B,,2835386907,Colégio Batista
+184,3421805980,Colégio Batista de Camamu,https://pt-br.facebook.com/colegiobatistadecamamu,(73) 3255-1007,Camamu,,,E. Orbitando,C/D,,4842647267,Colégio Batista de Camamu
+185,1442735633,Colégio Olimpo Araguaína,https://www.melhorescola.com.br/escola/17055164-colegio-olimpo,(63) 3414-0554,Araguaína,,,X. Churn,,,2835449875,Colégio Olimpo Araguaína
+186,1442721942,Colégio Solução,https://colegiosolucao.com.br/,(48) 3224-1380,Florianópolis,,,E. Orbitando,C/D,,2835429591,Colégio Solução
+187,1442728960,Colégio General Osório,http://egocg.com.br/,(67) 3026-6240,Campo Grande,Conquista,,X. Churn,C/D,,4199450031,Colégio General Osório
+188,1442735588,Colégio Roberto Carneiro,https://www.colegiorobertocarneiro.com.br/,(37) 3222-5794,Divinópolis,,,X. Churn,,,2835429808,Colégio Roberto Carneiro
+189,3303722989,Colégio Sophia,http://www.colegiosophia.com.br/,(71) 3249-3860,Salvador,,,X. Churn,C/D,,4768222667,Colégio Sophia
+190,1447087984,Escola Santa Marta,https://www.escolasantamarta.com.br/,(43) 3258-1101,Ibiporã,,,E. Orbitando,C/D,,2835439307,Escola Santa Marta
+191,3304609909,Colégio Diocesano Dom Bosco,http://www.domboscopetrolina.com.br/,(87) 3861-0136,Petrolina,,,X. Churn,C/D,,4769276862,Colégio Diocesano Dom Bosco
+192,1442722075,Colégio Metodista Granbery,http://colegio.granbery.edu.br/,(32) 2101-1800,Juiz de Fora,,,E. Orbitando,A/B,,2835457471,Colégio Metodista Granbery
+193,3084893486,Colégio Conceito,https://www.facebook.com/sejaconceito/posts,(84) 2030-0101,Rio Grande do Norte,,,E. Orbitando,C/D,,4597914090,Colégio Conceito
+194,1442715671,Centro Educacional Recanto Interativo,https://recantointerativo.com.br/,(92) 3645-1376,Manaus,,,D. Para puxar,C/D,,2835452923,Centro Educacional Recanto Interativo
+195,1442735810,Colégio Luciano Feijão,https://www.lucianofeijao.com.br/,(88) 3112-1000,Sobral,,,E. Orbitando,C/D,,2835404261,Colégio Luciano Feijão
+196,1442705103,Colégio Agostiniano Nossa Senhora de Fátima,https://agostiniano.com/,(62) 3213-3022,Goiânia,FV,,,Premium,,2834947027,Colégio Agostiniano Nossa Senhora de Fátima
+197,1447063129,Colégio Cristão Nova Vida,http://colegiocristaonovavida.com.br/,(11) 2229-7530,Guarulhos,,,,C/D,,2835211981,Colégio Cristão Nova Vida
+198,1442748605,Colégio Equipe,https://pt-br.facebook.com/colegioequipekta/,(32) 3421-4960,Cataguases,Conquista,,E. Orbitando,C/D,,2835439301,Colégio Equipe
+199,1447075761,COLÉGIO PLUS,https://www.colegioplus.net/,(17) 3321-7575,Barretos,FV,,D. Para puxar,C/D,,2835211897,Colégio Plus
+200,1442729024,Colégio e Curso Menino Jesus/English Club,https://br.linkedin.com/in/amanda-seabra-0b68131ab,(81) 3241-1842,Olinda,,,D. Para puxar,C/D,,2835200519,Colégio e Curso Menino Jesus
+201,1442721756,Centro Universitário ETEP,https://www.etep.edu.br/,4020-2447,São José dos Campos,,,D. Para puxar,C/D,,2835210857,Centro Universitário ETEP
+202,2718921735,Ápice Eleva,https://pt-br.facebook.com/apiceeleva/posts/,(11) 4586-0743,Vinhedo,,,E. Orbitando,C/D,,4241514542,Ápice Eleva Vinhedo
+203,2873334170,Colégio Equipe Macapá,https://www.melhorescola.com.br/escola/colegio-equipe-macapa-unidade-jesus-de-nazare,(96) 3222-2929,Macapa,,,D. Para puxar,C/D,,2835200379,Colégio Equipe Macapá
+204,1442727224,Colégio Ser Sorocaba,https://colegioser.com.br/,(15) 2101-0101,Sorocaba,FV,,0. Fechado,Premium,,2835420587,Colégio Ser Sorocaba
+205,2968310164,Cursos YBR,https://querobolsa.com.br/idiomas/ybr-cursos,-,Florianopolis,,,E. Orbitando,A/B,,4505527461,Cursos YBR
+206,2940698242,Colegio Santo Antonio,http://www.csanto.com.br/,(91) 3366-6262,Belém,,,,C/D,,4477669869,Colegio Santo Antonio
+207,2940715183,Colegio Santa Doroteia,http://www.santadoroteia.com/,(92) 3633-8040,Manaus,,,,C/D,,4477249753,Colegio Santa Doroteia
+208,1762496009,Colégio Otto,https://pt-br.facebook.com/ColegioOtto,(38) 3221-6887,Montes Claros,,,,C/D,,3223548102,Colégio Otto
+209,2935187240,Escola Monsenhor Jonas Menezes e Silva,https://www.educamaisbrasil.com.br/escolas/escola-monsenhor-jonas-menezes-e-silva,-,João Alfredo,,,D. Para puxar,C/D,,4472465664,Escola Monsenhor Jonas Menezes e Silva
+210,2912687921,Colégio Plus,https://www.colegioplus.net/,(17) 3321-7575,Barretos,,,,C/D,,,
+211,1447082398,Colégio Sagrado Coracao De Maria,http://www.redesagradobh.com.br/,(31) 2105-0880,Belo Horizonte,,,E. Orbitando,A/B,,2835429722,Colégio Sagrado Coracao De Maria
+212,1447070830,Colégio Pitágoras Cidade Jardim,https://colegiopitagoras.com.br/,(31) 2111-2100,Belo Horizonte,,,,C/D,,2834947074,Colégio Pitágoras Cidade Jardim
+213,1447088013,Escola Atual,https://www.escolatual.com.br/,(61) 3201-2033,Brasília,,,,C/D,,2835452911,Escola Atual
+214,1442748509,Pirlimpimpim São Paschoall,http://www.ensinandoaviver.com.br/,(34) 3232-2412,Uberlândia,Conquista,,X. Churn,C/D,,2835457554,Pirlimpimpim São Paschoall
+215,2954718749,Centro de Ensino e Cultura,https://www.melhorescola.com.br/escola/33172315-centro-de-ensino-e-cultura,-,Rio De Janeiro,,,E. Orbitando,C/D,,4492152864,Centro de Ensino e Cultura
+216,1442766833,CEL Intercultural School,https://www.cel.com.br/,-,Rio de Janeiro,,,X. Churn,A/B,,2835452818,CEL Intercultural School
+217,2935200613,Colégio Filósofo,https://www.educamaisbrasil.com.br/escolas/colegio-filosofo-ltda,-,Rio Verde,,,E. Orbitando,C/D,,4472519456,Colégio Filósofo
+218,1442722099,Colégio Logosófico - RJ,https://rio.colegiologosofico.com.br/,(21) 2543-1138,Rio de Janeiro,Conquista,,E. Orbitando,A/B,,2835211771,Colégio Logosófico
+219,2945010345,Escola Conceição Lyra,https://www.educamaisbrasil.com.br/escolas/escola-conceicao-lyra,-,São Miguel Dos Campos,,,X. Churn,C/D,,4481445819,Escola Conceição Lyra
+220,1442705089,Instituto de Educação Thereza Porto Marques,http://www.institutoportomarques.com.br/,(12) 3951-8569,Jacareí,,,,A/B,,2835416945,Instituto de Educação Thereza Porto Marques
+221,1887293593,Colégio Tema,http://www.colegiotema.com.br/,-, ,,,E. Orbitando,A/B,,3379743310,Colégio Tema
+222,1442766893,Centro Educacional Mineiro,http://colcem.com.br/,-,Belo Horizonte,,,E. Orbitando,A/B,,2835449774,Centro Educacional Mineiro
+223,1442766920,Colégio Pedacinho de Céu Souza Aguiar,https://www.portalceuaguiar.com.br/,(62) 3336-1466,Alexânia,,,X. Churn,C/D,,2835429714,Colégio Pedacinho de Céu Souza Aguiar
+224,2825625599,Colégio Eron,https://www.facebook.com/colegioeron/,(21) 2608-6539,Niterói,,,D. Para puxar,C/D,,4355157700,Colégio Eron
+225,2935230465,Colégio Geração Resultados,https://www.melhorescola.com.br/escola/colegio-geracao-resultados,(67) 3361-2029,Campo Grande,,,E. Orbitando,C/D,,4472650549,Colégio Geração Resultados
+226,2912693934,Colégio Pedacinho de Céu Souza Aguiar,https://www.portalceuaguiar.com.br/,(62) 3336-1466,Alexânia,,,,A/B,,2835429714,Colégio Pedacinho de Céu Souza Aguiar
+227,2912680817,Colégio Novo Método,http://www.colegiometodomaua.com.br/,(11) 4514-6088,Mauá,,,D. Para puxar,C/D,,4450098851,Colégio Novo Método
+228,1442741381,Educativa Instituto de Educação e Cultura,https://www.educativa.com.br/,(16) 3363-7500,São Carlos,,,X. Churn,A/B,,2835470302,Educativa Instituto de Educação e Cultura
+229,2786100750,Colégio e Curso Sei,https://sistemasei.com.br/,(21) 3449-8734,Rio de Janeiro,FV,,D. Para puxar,C/D,,4308579270,Colégio e Curso Sei
+230,2836663746,Colégio Carbonell,https://www.colegiocarbonell.com.br/,(11) 4962-5555,Guarulhos,,,E. Orbitando,A/B,,4365642831,Colégio Carbonell
+231,1442735748,Colégio Saloni,https://www.colegiosaloni.com.br/,(12) 3922-8608,São José dos Campos,,,X. Churn,Desqualificada,,2835439194,Colégio Saloni
+232,2887011474,Colégio La Salle Xanxerê,https://lasalle.edu.br/xanxere,(49) 3441-7800,Xanxerê,,,X. Churn,A/B,,4421928790,Colégio La Salle Xanxerê
+233,2855663320,Colégio Marechal Duque de Caxias,http://www.educacao.df.gov.br/comunicado-entrega-dos-historicos-escolares-do-colegio-marechal-duque-de-caxias/,(61) 3347-2285,Brasilia,,,E. Orbitando,C/D,,4384456684,Colégio Marechal Duque de Caxias
+234,1442748484,COC Cecafe,https://www.coc.com.br/nossas-escolas/cecafe-centro-de-ensino-caminho-feliz,(17) 3631-1876,Santa Fé do Sul,,,E. Orbitando,A/B,,2835439409,COC Cecafe
+235,1442721950,Colégio Dom Feliciano,https://colegiodomfeliciano.com.br/,(51) 3488-1400,Gravataí,Conquista,,X. Churn,A/B,,2835420465,Colégio Dom Feliciano
+236,1442721724,Salesiano,http://salesianorm.com.br/,-,Rio de Janeiro,,,X. Churn,,,3248798723,Salesiano
+237,1442729047,Colégio Impacto de Paragominas,https://pt-br.facebook.com/ColegioImpactoDeParagominas,(91) 3729-1021,Paragominas,,,,,,2834947207,Colégio Impacto de Paragominas
+238,2794927877,Escola Salesiana Brasília (Dom Bosco),https://bsb.escolasalesiana.com.br/,(61) 3224-5315,Brasília,Conquista,,D. Para puxar,A/B,,4319436993,Escola Salesiana Brasília (Dom Bosco)
+239,1442755572,Colégio Piaget,https://piaget.g12.br/,(11) 2238-4600,São Paulo,,,E. Orbitando,C/D,,2835404162,Colégio Piaget
+240,2838660804,FV Colégio São Luís,https://www.saoluis.org/,(11) 3138-9600, ,,,,,,,
+241,2810828266,FV Colégio Classe A,https://colegioclassea.com.br/,-, ,,,,,,,
+242,2810818289,FV Colégio Renovação,https://www.folhavitoria.com.br/geral/noticia/10/2015/musica-e-conhecimento-essa-dupla-tem-tudo-a-ver,-, ,,,,,,,
+243,2810818046,FV Colegio Vila Mundo,http://www.colegiovilamundo.com.br/,(31) 3476-4639, ,FV,,,,,,
+244,2810747991,FV Colégio Maximus,https://foursquare.com/v/escola-maximus/51a4c974498e46100b981da4,(11) 3091-3116, ,FV,,,,,,
+245,2759544030,T Parthenon Colegio Unidade Ii,https://colegioparthenon.com.br/,(11) 2421-5588, ,,,,,,4280866891,T Parthenon Colegio Unidade Ii
+246,2763448087,Colégio Jorge Amado,https://www.educamaisbrasil.com.br/escolas/colegio-jorge-amado,-,Itabuna,,,E. Orbitando,A/B,,4284198786,Colégio Jorge Amado
+247,1442748534,Colégio Santo Agostinho,https://cmsaipiau.com.br/,(73) 3531-3344,Ipiaú,,,E. Orbitando,C/D,,2835416968,Colégio Santo Agostinho
+248,1442379509,Colégio Artur Ferreira,https://www.colegioarturferreira.com.br/,(11) 4656-3719,Santa Isabel,,,E. Orbitando,C/D,,2835439351,Colégio Artur Ferreira
+249,4707338763,Colégio Atitude,https://pt-br.facebook.com/colegioatitudeoficial/,(91) 3781-1227,Cametá,,,D. Para puxar,C/D,,2835200520,Colégio Atitude
+250,2337544655,Curso e Colégio Alfa Integral,http://integralmarechal.com.br/ensino-medio/6/terceirao,(45) 3378-6016, ,,,D. Para puxar,C/D,,,
+251,2337574442,Colégio Global - São Bento do Sul,http://www.colegioglobal.com.br/,(47) 3634-1516, ,,,D. Para puxar,C/D,,,
+252,2851313449,Athena Centro Educacional,https://athenabauru.com/,(14) 3010-1313,Bauru,,,,C/D,,4379411238,Athena Centro Educacional
+253,2466294130,Colégio Espírito Santo,http://www.colegioespiritosanto.com.br/,(11) 3389-1000,São Paulo,Conquista,,D. Para puxar,A/B,,4208909837,Colégio Espírito Santo
+254,2862395955,Escola de Ensino Fundamental Jesus Redentor,https://www.escol.as/104597-escola-de-ensino-fundamental-jesus-redentor,(82) 3522-1124,Arapiraca,,,X. Churn,C/D,,4394183146,Escola de Ensino Fundamental Jesus Redentor
+255,2841747493,Centro Educacional Além do Horizonte - Novo negócio,https://consultas.plus/lista-de-empresas/sao-paulo/poa/38134883000103-centro-educacional-alem-do-horizonte-ltda/,(11) 4639-7944,Poá,,,,,,4371000302,Centro Educacional Além do Horizonte
+256,2719814436,Colégio Poente,https://pt-br.facebook.com/ColegioPoente/,(65) 3644-3971,Cuiaba,,,,C/D,,4241991099,Colégio Poente
+257,2841684035,Centro Educacional Além do Horizonte,https://consultas.plus/lista-de-empresas/sao-paulo/poa/38134883000103-centro-educacional-alem-do-horizonte-ltda/,(11) 4639-7944,Poá,,,E. Orbitando,,,4371000302,Centro Educacional Além do Horizonte
+258,2777449393,Anglo Sacre Coeur Dês Enfants,http://sacre.com.br/,(15) 3542-2314, ,,,,,,4296203564,Anglo Sacre Coeur Dês Enfants
+259,1442755596,Geniu's Centro de Estudos,https://pt-br.facebook.com/geniusredencao/,(94) 99152-7857,Redenção,,,E. Orbitando,C/D,,2835449728,Geniu's Centro de Estudos
+260,1442721862,Rede Clarissas Franciscanas,http://www.redecf.com.br/,(31) 3462-5918,Belo Horizonte,,,X. Churn,,,2835210841,Rede Clarissas Franciscanas
+261,1442721951,Colégio NIE,https://www.colegionie.com.br/,(14) 3621-3003,Jaú,,,D. Para puxar,A/B,,2835429744,Colégio NIE
+262,2366388887,Instituto Farina,https://www.institutofarina.com.br/,(98) 3311-1775,São Luís,,,E. Orbitando,A/B,,,
+263,2359978601,Base de Upsell Clientes Qaptação (D),https://neilpatel.com/br/blog/upsell-o-que-e/,-, ,,,D. Para puxar,,,,
+264,2360054075,Base de Upsell Clientes Qaptação,https://neilpatel.com/br/blog/upsell-o-que-e/,-, ,,,D. Para puxar,,,,
+265,2762234765,Colégio e Curso Anglo - Unidade Leonardo da Vinci,http://site.estudenoanglo.com.br/escola.php?unidade=1&ensino=,(11) 4153-7739,Santana da Parnaíba,,,D. Para puxar,,,4282949384,Colégio e Curso Anglo - Unidade Leonardo da Vinci
+266,2633337352,Unificado - Ensino Médio e Pré Vestibular,https://www.unificado.com.br/,-,Porto Alegre,Conquista,,D. Para puxar,A/B,,4224902090,Unificado - Ensino Médio e Pré Vestibular
+267,1442755640,Colégio Dourado,https://www.educamaisbrasil.com.br/escolas/colegio-dourado-recife-pe,(81) 3341-4800,Recife,,,,C/D,,2835200408,Colégio Dourado
+268,1442385785,Escolas Padre Anchieta,https://escolas.anchieta.br/,(11) 4527-3444,Jundiaí,,,,Premium,,2835439295,Escolas Padre Anchieta
+269,1442748653,Exito Colégio e Curso,https://exitocolegio.com.br/,-,Natal,,,X. Churn,C/D,,2835210695,Exito Colégio e Curso
+270,1442748464,CDF Colégio e Curso,http://cdf.com.br/,-,Natal,Conquista,,X. Churn,C/D,,2835404373,CDF Colégio e Curso
+271,5083315316,DataComput Colégio e Curso,https://pt-br.facebook.com/datacomputcolegioecurso,(84) 3674-4419,Natal,Conquista,,X. Churn,C/D,,"2834947101, 2835429696","Centro Educacional Charles Darwin — Unid. Aracruz, DataComput Colégio e Curso"
+272,1442735783,Escola Sepro,https://escolasepro.com.br/,(31) 3831-4944,Itabira,,,E. Orbitando,A/B,,2835386920,Escola Sepro
+273,1442735817,Educandário Torres Pádua,http://torrespadua.com.br/,(24) 3371-2159,Paraty,,,E. Orbitando,C/D,,2835429567,Educandário Torres Pádua
+274,1442767017,Colégio Brasilis,http://www.colegiobrasilis.com.br/,(11) 4723-8789,Mogi das Cruzes,,,E. Orbitando,A/B,,2835404289,Colégio Brasilis
+275,1777079162,Colégio Franciscano Imaculada Conceição,https://www.cfimaculadaconceicao.com.br/,(33) 3022-5400,Valadares,,,E. Orbitando,A/B,,3249785760,Colégio Franciscano Imaculada Conceição
+276,1823940155,Colégio Maria Imaculada,http://www.colegiomariaimaculada.com.br/,(12) 3952-5481, ,,,E. Orbitando,A/B,,3312525743,Colégio Maria Imaculada
+277,5000311704,Colégio Farias Brito,https://www.fariasbrito.com.br/,-,Fortaleza,,,E. Orbitando,Premium,,"2835420510, 2835449731","Colégio Farias Brito, Organização Educacional Farias Brito"
+278,2746051785,Instituto Educacional Caminhar,https://www.institutocaminhar.com.br/,-,Jacareí,,,X. Churn,C/D,,2834947111,Instituto Educacional Caminhar
+279,1903894968,Interschool Brasil,https://www.interschoolbrasil.com.br/,(62) 3241-8600,Goiânia,,,,A/B,,3396054847,Interschool Brasil
+280,2786318724,Instituto Águias do Saber,https://aguiasdosaber.com.br/unidades/,(68) 3223-8493,Rio Branco,,,E. Orbitando,C/D,,4309918690,Instituto Águias do Saber
+281,2008111795,Colegio Da Imaculada Conceicao,https://www.instagram.com/cic.serratalhada/?hl=pt-br,(87) 99996-8944,Serra Talhada,Conquista,,D. Para puxar,C/D,,3886912563,Colegio Da Imaculada Conceicao
+282,1442722100,Instituto de Educação Galileu Galilei | RJ,https://iegg.com.br/,(21) 2547-7073,Rio de Janeiro,,,E. Orbitando,A/B,,2835429604,Instituto de Educação Galileu Galilei
+283,1442729124,Colégio Monjolo,https://www.colegiomonjolo.com.br/,(45) 3520-1915,Foz do Iguaçu,,,,C/D,,2835210862,Colégio Monjolo
+284,1442735741,Colégio Nossa Senhora de Fátima Sergipe,https://pt-br.facebook.com/colegionsfatima,(79) 3272-1404,Japaratuba,,,X. Churn,C/D,,2835420457,Colégio Nossa Senhora de Fátima Sergipe
+285,1442735578,Exito Instituto de Educação,https://pt-br.facebook.com/exitoinstituto,(11) 2087-4830,Guarulhos,,,X. Churn,C/D,,2835452924,Exito Instituto de Educação
+286,2391064661,Colégio Espaço Educativo,https://pt-br.facebook.com/pages/category/Private-School/Col%C3%A9gio-Espa%C3%A7o-Educativo-398216236968002/,(81) 3723-3972,Caruaru,,,,C/D,,4140252784,Colégio Espaço Educativo
+287,2750105338,Centro Educacional Lemense,https://www.educamaisbrasil.com.br/escolas/lemense-centro-educacional,(19) 3571-0701,Leme,,,X. Churn,C/D,,4271133468,Centro Educacional Lemense
+288,2461398902,Colégio Santa Joana D'Arc,https://colegiosantajoanadarc.blogspot.com/,(87) 3761-6568,Garanhuns,,,,A/B,,4201836494,Colégio Santa Joana D'Arc
+289,1442735634,Colégio Marconi,https://www.colegiomarconi.com.br/,(11) 2088-4188,São paulo,,,E. Orbitando,A/B,,2835473656,Colégio Marconi
+290,1447075768,Externato Santo Antonio,https://www.externato.com.br/,(11) 4227-9999,São Paulo,Conquista,,,A/B,,2835439245,Externato Santo Antonio
+291,5102563595,Colégio Educador,https://colegioeducador.com.br/,(64) 3453-7111,Caldas Novas,Conquista,,,A/B,,2835429792,Colégio Educador
+292,2462199453,CEFA - Centro Educacional Feliciano Azevedo - RJ,https://pt-br.facebook.com/vemprocefa/,(22) 2723-0882,Campos dos Goytacazes,,,,,,4199169266,CEFA - Centro Educacional Feliciano Azevedo - RJ
+293,2634361327,Colégio Força Máxima,https://www.colegioforcamaxima.com.br/,-,Rio de Janeiro,Conquista,,D. Para puxar,A/B,,4225743203,Colégio Força Máxima
+294,2461408494,Colégio Origem,https://www.origemcolegio.com.br/home,(15) 3500-8896,Cerquilho,,,D. Para puxar,A/B,,4203213613,Colégio Origem
+295,2731034559,COLÉGIO DONA CLARA,https://www.donaclara.com.br/,(31) 3497-6919,Belo Horizonte,FV,,E. Orbitando,Premium,,4242999902,Colégio Dona Clara
+296,2388354842,Colégio COC Araucária,https://cocaraucaria.com.br/,(41) 3031-6565,Araucária,,,D. Para puxar,A/B,,4160445229,Colégio COC Araucária
+297,2461361021,Colegio La Salle,https://lasalle.edu.br/canoas,(51) 3476-8774,Canoas,,,D. Para puxar,Premium,,4201936254,Colegio La Salle
+298,2654536917,Ce Olivia Lima E Jd De Inf Mirim Ltda,http://www.qedu.org.br/escola/178239-ce-olivia-lima-e-jd-de-inf-mirim-ltda/sobre,(21) 2617-9108,São Gonçalo,,,,C/D,,4229934316,Ce Olivia Lima E Jd De Inf Mirim Ltda

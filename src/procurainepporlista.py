@@ -5,10 +5,14 @@ from scrapping import acessoqedu
 from scrapping import exitdriver
 
 PATH = "/Users/FernandoZanchitta/Documents/chromedriver"
+
 driver = webdriver.Chrome(PATH)
+
 input = input("Nome do Arquivo:\n")
+
 data = pd.read_csv('/Users/FernandoZanchitta/PycharmProjects/Pegasus de ford/%s.csv' % input)
 data.columns = [col.replace(' ', '_').lower() for col in data.columns]
+
 if "dominio_(url_do_site_da_escola)" in data.columns:
     data.rename(columns={'dominio_(url_do_site_da_escola)': 'dominio'}, inplace=True)
 if "telefone" not in data.columns:
@@ -29,5 +33,12 @@ data.insert(5, "link_qedu", False)
 for i in range(data['deal_name'].count()):
     if data.loc[i, "inep"] == False:
         data.loc[i, 'inep'], data.loc[i, 'cidade_encontrada'], data.loc[i, 'link_qedu'] = acessoqedu(driver, data.loc[i, 'deal_name'], data.loc[i, 'cidade'])
+
+if "deal_id" in data.columns:
+    data.rename(columns={'deal_id': 'Deal ID'}, inplace=True)
+
+if "company_id" in data.columns:
+    data.rename(columns={'company_id': 'Company ID'}, inplace=True)
+
 csvoutput = data.to_csv('/Users/FernandoZanchitta/PycharmProjects/Pegasus de ford/output/%s_Tel_site_qedu.csv' % input)
 exitdriver(driver)

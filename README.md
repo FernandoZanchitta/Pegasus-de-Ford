@@ -25,3 +25,5 @@ de Webscrapping para encontrar o Resultado do Código Inep e Sistema de Ensino.
 Depois disso, pega o Json Gerado e armazena num csv
 
 ###Procura o Código Inep, telefone e site dada uma lista.
+
+

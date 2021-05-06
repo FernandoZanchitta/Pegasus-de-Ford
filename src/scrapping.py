@@ -1,5 +1,7 @@
 from selenium.webdriver.common.action_chains import ActionChains
 from selenium.webdriver.common.keys import Keys
+from selenium.common.exceptions import TimeoutException
+from selenium import webdriver
 import re
 import time
 
@@ -97,86 +99,94 @@ def pesquisagooglesitetelefone(driver, escola, cidade):
 
 # Entra no url, e procura as palavras chave representando
 # os sistemas de ensino no Código Fonte da página
-def checarsistemaensino(driver, url):
+def checarsistemaensino(driver, url,PATH):
     sistemaEnsino = ''
     bilingue = ''
     comunidade = ''
-    if url != "":
-        print("Acessando o link:" + url)
-        try:
-
-            driver.get(url=url)
-            src = driver.page_source
-        except:
-            out = "Pagedown"
-            return out
-
-        textfoundPoli = re.search(
-            r'poliedro|Poliedro|Ensino Poliedro|Sistema Poliedro|SISTEMA POLIEDRO|Portal Edros|Poliedro Sistema|p4ed',
-            src)
-        textfoundBili = re.search(r'Ensino Bilíngue|bilíngue|Bilingue|BILINGUE|Internacional|Ensino de inglês', src)
-        textfoundBernou = re.search(r'Bernoulli|bernoulli|BERNOULLI', src)
-        textfoundAri = re.search(r'Ari de Sá|ari de Sá|Ari de Sa|Plataforma SAS|Ensino SAS|portalsas.com.br|"SAS"', src)
-        textfoundAnglo = re.search(r'Sistema Anglo|anglo|Ensino ANGLO|Ecossistema Anglo|Anglo sistema', src)
-        textfoundEtapa = re.search(r'Ensino Etapa|Colégio Etapa|Sistema Etapa|Etapa Sistema', src)
-        textfoundCOC = re.search(
-            r'coc-| coc|Plataforma coc|Sistema COC|COC Sistema|Ensino COC|Colegio COC|COC ensino|Colégio COC|SISTEMA COC|coc.com.br|Portal COC|Portal Coc|coc.png',
-            src)
-        textfoundGoogle = re.search(
-            r'Google For Education|Google pela Educação|Google for Education|Google.png|Google.jgp|Google.jpeg', src)
-        textfoundUnesco = re.search(r'Comunidade Unesco|Unesco|UNESCO|unesco.png', src)
-        textfoundMack = re.search(r'mackenzie|Mackenzie', src)
-        textfoundgeekie = re.search(r'geekie|Geekie', src)
-        textfoundPositivo = re.search(
-            r'Sistema Positivo|Positivo Ensino|Editora Positivo|Positivo English Solution|editorapositivo', src)
-        textfoundSales = re.search(r'Salesiano|salesiano', src)
-        textfoundMaple = re.search(r'MapleBear|Maple Bear', src)
-        textfoundFB = re.search(r'Farias Brito|farias brito', src)
-        textfoundPH = re.search(r'Ensino pH|Educacional pH|Sistema pH|pH Ensino', src)
-
-        if (textfoundBili != None):
-            bilingue = 'Sim'
-
-        if (textfoundGoogle != None):
-            comunidade = sistemaEnsino + ';' + 'Google for Education' if comunidade != '' else 'Google for Education'
-        if (textfoundUnesco != None):
-            comunidade = sistemaEnsino + ';' + 'Unesco' if comunidade != '' else 'Unesco'
-
-        if (textfoundPoli != None):
-            sistemaEnsino = 'Poliedro'
-        if (textfoundBernou != None):
-            sistemaEnsino = sistemaEnsino + ';' + 'Bernoulli' if sistemaEnsino != '' else 'Bernoulli'
-        if (textfoundAri != None):
-            sistemaEnsino = sistemaEnsino + ';' + 'Ari de Sá (ARCO)' if sistemaEnsino != '' else 'Ari de Sá (ARCO)'
-        if (textfoundAnglo != None):
-            sistemaEnsino = sistemaEnsino + ';' + 'Anglo (SOMOS)' if sistemaEnsino != '' else 'Anglo (SOMOS)'
-        if (textfoundEtapa != None):
-            sistemaEnsino = sistemaEnsino + ';' + 'Etapa' if sistemaEnsino != '' else 'Etapa'
-        if (textfoundCOC != None):
-            sistemaEnsino = sistemaEnsino + ';' + 'COC (Arco)' if sistemaEnsino != '' else 'COC (Arco)'
-        if (textfoundMack != None):
-            sistemaEnsino = sistemaEnsino + ';' + 'Mackenzie Educacional (ME)' if sistemaEnsino != '' else 'Mackenzie Educacional (ME)'
-        if (textfoundgeekie != None):
-            sistemaEnsino = sistemaEnsino + ';' + 'Geekie One' if sistemaEnsino != '' else 'Geekie One'
-        if (textfoundPositivo != None):
-            sistemaEnsino = sistemaEnsino + ';' + 'Positivo' if sistemaEnsino != '' else 'Positivo'
-        if (textfoundSales != None):
-            sistemaEnsino = sistemaEnsino + ';' + 'Salesiano' if sistemaEnsino != '' else 'Salesiano'
-        if (textfoundMaple != None):
-            sistemaEnsino = sistemaEnsino + ';' + 'Maple Bear' if sistemaEnsino != '' else 'Maple Bear'
-        if (textfoundFB != None):
-            sistemaEnsino = sistemaEnsino + ';' + 'Farias Brito (FB)' if sistemaEnsino != '' else 'Farias Brito (FB)'
-        if (textfoundPH != None):
-            sistemaEnsino = sistemaEnsino + ';' + 'pH (SOMOS)' if sistemaEnsino != '' else 'pH (SOMOS)'
+    try:
+        driver.set_page_load_timeout(30)
+        driver.get(url=url)
+    except TimeoutException:
+        driver.close()
+        sistemaEnsino = 'Timeout'
+        bilingue = 'Timeout'
+        comunidade = 'Timeout'
         print("Sistema de Ensino: " + sistemaEnsino)
-        return sistemaEnsino, bilingue, comunidade
-    else:
-        return sistemaEnsino, bilingue, comunidade
+        print("É Bilingue? " + bilingue)
+        print("Comunidade: " + comunidade)
+        driver = webdriver.Chrome(PATH)
+        return sistemaEnsino, bilingue, comunidade, driver
+    src = driver.page_source
+    textfoundPoli = re.search(
+        r'poliedro|Poliedro|Ensino Poliedro|Sistema Poliedro|SISTEMA POLIEDRO|Portal Edros|Poliedro Sistema|p4ed',
+        src)
+    textfoundBili = re.search(r'Ensino Bilíngue|bilíngue|Bilingue|BILINGUE|Internacional|Ensino de inglês', src)
+    textfoundBernou = re.search(r'Bernoulli|bernoulli|BERNOULLI', src)
+    textfoundAri = re.search(r'Ari de Sá|ari de Sá|Ari de Sa|Plataforma SAS|Ensino SAS|portalsas.com.br|"SAS"',
+                             src)
+    textfoundAnglo = re.search(r'Sistema Anglo|anglo|Ensino ANGLO|Ecossistema Anglo|Anglo sistema', src)
+    textfoundEtapa = re.search(r'Ensino Etapa|Colégio Etapa|Sistema Etapa|Etapa Sistema', src)
+    textfoundCOC = re.search(
+        r'coc-| coc|Plataforma coc|Sistema COC|COC Sistema|Ensino COC|Colegio COC|COC ensino|Colégio COC|SISTEMA COC|'
+        r'coc.com.br|Portal COC|Portal Coc|coc.png',src)
+    textfoundGoogle = re.search(
+        r'Google For Education|Google pela Educação|Google for Education|Google.png|Google.jgp|Google.jpeg',
+        src)
+    textfoundUnesco = re.search(r'Comunidade Unesco|Unesco|UNESCO|unesco.png', src)
+    textfoundMack = re.search(r'mackenzie|Mackenzie', src)
+    textfoundgeekie = re.search(r'geekie|Geekie', src)
+    textfoundPositivo = re.search(
+        r'Sistema Positivo|Positivo Ensino|Editora Positivo|Positivo English Solution|editorapositivo', src)
+    textfoundSales = re.search(r'Salesiano|salesiano', src)
+    textfoundMaple = re.search(r'MapleBear|Maple Bear', src)
+    textfoundFB = re.search(r'Farias Brito|farias brito', src)
+    textfoundPH = re.search(r'Ensino pH|Educacional pH|Sistema pH|pH Ensino', src)
+
+    if textfoundBili != None:
+        bilingue = 'Sim'
+
+    if textfoundGoogle != None:
+        comunidade = sistemaEnsino + ';' + 'Google for Education' if comunidade != '' else 'Google for Education'
+    if textfoundUnesco != None:
+        comunidade = sistemaEnsino + ';' + 'Unesco' if comunidade != '' else 'Unesco'
+
+    if textfoundPoli != None:
+        sistemaEnsino = 'Poliedro'
+    if textfoundBernou != None:
+        sistemaEnsino = sistemaEnsino + ';' + 'Bernoulli' if sistemaEnsino != '' else 'Bernoulli'
+    if textfoundAri != None:
+        sistemaEnsino = sistemaEnsino + ';' + 'Ari de Sá (ARCO)' if sistemaEnsino != '' else 'Ari de Sá (ARCO)'
+    if textfoundAnglo != None:
+        sistemaEnsino = sistemaEnsino + ';' + 'Anglo (SOMOS)' if sistemaEnsino != '' else 'Anglo (SOMOS)'
+    if textfoundEtapa != None:
+        sistemaEnsino = sistemaEnsino + ';' + 'Etapa' if sistemaEnsino != '' else 'Etapa'
+    if textfoundCOC != None:
+        sistemaEnsino = sistemaEnsino + ';' + 'COC (Arco)' if sistemaEnsino != '' else 'COC (Arco)'
+    if textfoundMack != None:
+        sistemaEnsino = sistemaEnsino + ';' + 'Mackenzie Educacional (ME)' if sistemaEnsino != '' else 'Mackenzie Educacional (ME)'
+    if textfoundgeekie != None:
+        sistemaEnsino = sistemaEnsino + ';' + 'Geekie One' if sistemaEnsino != '' else 'Geekie One'
+    if textfoundPositivo != None:
+        sistemaEnsino = sistemaEnsino + ';' + 'Positivo' if sistemaEnsino != '' else 'Positivo'
+    if textfoundSales != None:
+        sistemaEnsino = sistemaEnsino + ';' + 'Salesiano' if sistemaEnsino != '' else 'Salesiano'
+    if textfoundMaple != None:
+        sistemaEnsino = sistemaEnsino + ';' + 'Maple Bear' if sistemaEnsino != '' else 'Maple Bear'
+    if textfoundFB != None:
+        sistemaEnsino = sistemaEnsino + ';' + 'Farias Brito (FB)' if sistemaEnsino != '' else 'Farias Brito (FB)'
+    if textfoundPH != None:
+        sistemaEnsino = sistemaEnsino + ';' + 'pH (SOMOS)' if sistemaEnsino != '' else 'pH (SOMOS)'
+    print("Sistema de Ensino: " + sistemaEnsino)
+    print("É Bilingue? "+bilingue)
+    print("Comunidade: "+comunidade)
+    return sistemaEnsino, bilingue, comunidade, driver
+
 
 
 # fecha o driver
 def exitdriver(driver):
     driver.delete_all_cookies()
+    driver.close()
     driver.quit()
 
 

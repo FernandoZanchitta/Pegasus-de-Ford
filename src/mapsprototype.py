@@ -35,7 +35,7 @@ key=%s
     z = x['result']
     return z
 
-def inserirnovaescola(driver,data, school_json,api_key):
+def inserirnovaescola(driver,data, school_json,api_key,PATH):
     print("\n\nInserindo nova escola:")
     # chamamos a pesquisa detalhada e inserimos as informações que precisamos da escola lá dentro
     z = pesquisadetalhada(school_json,api_key)
@@ -53,7 +53,7 @@ def inserirnovaescola(driver,data, school_json,api_key):
     data['Inep'] = inep
     data['city'] = cidade
     data['qedu_url'] = qedu_url
-    data['Sistema de Ensino'], data['Escola é Bilíngue?'], data['Comunidade que a escola pertence'] = checarsistemaensino(driver,data['website'])
+    data['Sistema de Ensino'], data['Escola é Bilíngue?'], data['Comunidade que a escola pertence'], driver = checarsistemaensino(driver,data['website'],PATH)
     return data
 
 def pesquisanextpage(next_page,api_key):
@@ -76,7 +76,7 @@ pagetoken=%s&key=%s
 
 
 
-
+# Exemplo de Output do Search Text
 # Referências:
 # API do Google:
 # https://developers.google.com/maps/documentation/places/web-service/search?hl=en
