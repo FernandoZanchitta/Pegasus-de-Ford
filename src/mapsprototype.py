@@ -53,7 +53,7 @@ def inserirnovaescola(driver,data, school_json,api_key):
     data['Inep'] = inep
     data['city'] = cidade
     data['qedu_url'] = qedu_url
-    data['Sistema de Ensino'] = checarsistemaensino(driver,data['website'])
+    data['Sistema de Ensino'], data['Escola é Bilíngue?'], data['Comunidade que a escola pertence'] = checarsistemaensino(driver,data['website'])
     return data
 
 def pesquisanextpage(next_page,api_key):

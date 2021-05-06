@@ -87,7 +87,10 @@ def pesquisagooglesitetelefone(driver, escola, cidade):
     except IndexError:
         telefone = '-'
     links = [elem.get_attribute('href') for elem in elems]
-    domain_url = links[0]
+    aux = 0
+    while "facebook" in links[aux] or "instagram" in links[aux] or "linkedin" in links[aux]:
+        aux += 1
+    domain_url = links[aux]
 
     return domain_url, telefone
 
@@ -95,9 +98,13 @@ def pesquisagooglesitetelefone(driver, escola, cidade):
 # Entra no url, e procura as palavras chave representando
 # os sistemas de ensino no Código Fonte da página
 def checarsistemaensino(driver, url):
+    sistemaEnsino = ''
+    bilingue = ''
+    comunidade = ''
     if url != "":
         print("Acessando o link:" + url)
         try:
+
             driver.get(url=url)
             src = driver.page_source
         except:
@@ -124,39 +131,47 @@ def checarsistemaensino(driver, url):
             r'Sistema Positivo|Positivo Ensino|Editora Positivo|Positivo English Solution|editorapositivo', src)
         textfoundSales = re.search(r'Salesiano|salesiano', src)
         textfoundMaple = re.search(r'MapleBear|Maple Bear', src)
-        sistemaEnsino = ''
+        textfoundFB = re.search(r'Farias Brito|farias brito', src)
+        textfoundPH = re.search(r'Ensino pH|Educacional pH|Sistema pH|pH Ensino', src)
+
+        if (textfoundBili != None):
+            bilingue = 'Sim'
+
+        if (textfoundGoogle != None):
+            comunidade = sistemaEnsino + ';' + 'Google for Education' if comunidade != '' else 'Google for Education'
+        if (textfoundUnesco != None):
+            comunidade = sistemaEnsino + ';' + 'Unesco' if comunidade != '' else 'Unesco'
+
         if (textfoundPoli != None):
             sistemaEnsino = 'Poliedro'
-        if (textfoundBili != None):
-            sistemaEnsino = sistemaEnsino + ';' + 'Bilíngue' if sistemaEnsino != '' else 'Bilíngue'
         if (textfoundBernou != None):
             sistemaEnsino = sistemaEnsino + ';' + 'Bernoulli' if sistemaEnsino != '' else 'Bernoulli'
         if (textfoundAri != None):
-            sistemaEnsino = sistemaEnsino + ';' + 'Ari de Sá' if sistemaEnsino != '' else 'Ari de Sá'
+            sistemaEnsino = sistemaEnsino + ';' + 'Ari de Sá (ARCO)' if sistemaEnsino != '' else 'Ari de Sá (ARCO)'
         if (textfoundAnglo != None):
-            sistemaEnsino = sistemaEnsino + ';' + 'Anglo' if sistemaEnsino != '' else 'Anglo'
+            sistemaEnsino = sistemaEnsino + ';' + 'Anglo (SOMOS)' if sistemaEnsino != '' else 'Anglo (SOMOS)'
         if (textfoundEtapa != None):
             sistemaEnsino = sistemaEnsino + ';' + 'Etapa' if sistemaEnsino != '' else 'Etapa'
         if (textfoundCOC != None):
-            sistemaEnsino = sistemaEnsino + ';' + 'COC' if sistemaEnsino != '' else 'COC'
-        if (textfoundGoogle != None):
-            sistemaEnsino = sistemaEnsino + ';' + 'Google for Education' if sistemaEnsino != '' else 'Google for Education'
-        if (textfoundUnesco != None):
-            sistemaEnsino = sistemaEnsino + ';' + 'Unesco' if sistemaEnsino != '' else 'Unesco'
+            sistemaEnsino = sistemaEnsino + ';' + 'COC (Arco)' if sistemaEnsino != '' else 'COC (Arco)'
         if (textfoundMack != None):
-            sistemaEnsino = sistemaEnsino + ';' + 'Mackenzie' if sistemaEnsino != '' else 'Mackenzie'
+            sistemaEnsino = sistemaEnsino + ';' + 'Mackenzie Educacional (ME)' if sistemaEnsino != '' else 'Mackenzie Educacional (ME)'
         if (textfoundgeekie != None):
-            sistemaEnsino = sistemaEnsino + ';' + 'Geekie' if sistemaEnsino != '' else 'Geekie'
+            sistemaEnsino = sistemaEnsino + ';' + 'Geekie One' if sistemaEnsino != '' else 'Geekie One'
         if (textfoundPositivo != None):
             sistemaEnsino = sistemaEnsino + ';' + 'Positivo' if sistemaEnsino != '' else 'Positivo'
         if (textfoundSales != None):
             sistemaEnsino = sistemaEnsino + ';' + 'Salesiano' if sistemaEnsino != '' else 'Salesiano'
         if (textfoundMaple != None):
             sistemaEnsino = sistemaEnsino + ';' + 'Maple Bear' if sistemaEnsino != '' else 'Maple Bear'
+        if (textfoundFB != None):
+            sistemaEnsino = sistemaEnsino + ';' + 'Farias Brito (FB)' if sistemaEnsino != '' else 'Farias Brito (FB)'
+        if (textfoundPH != None):
+            sistemaEnsino = sistemaEnsino + ';' + 'pH (SOMOS)' if sistemaEnsino != '' else 'pH (SOMOS)'
         print("Sistema de Ensino: " + sistemaEnsino)
-        return sistemaEnsino
+        return sistemaEnsino, bilingue, comunidade
     else:
-        return ""
+        return sistemaEnsino, bilingue, comunidade
 
 
 # fecha o driver

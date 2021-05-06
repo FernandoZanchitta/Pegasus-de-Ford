@@ -1,90 +1,27 @@
 from selenium import webdriver
-import time
 import pandas as pd
 from scrapping import pesquisagooglesitetelefone
 from scrapping import acessoqedu
 from scrapping import exitdriver
 
-# def pesquisa_google_qedu(escola,cidade):
-#     try:
-#         escola = escola.replace(' ', '+')
-#         cidade = cidade.replace(' ', '+')
-#     except:
-#         telefone = ""
-#         domain_url = ""
-#         return domain_url, telefone
-#     query = escola + "+" + cidade
-#     search_url = "https://www.google.com/search?q=" + query + "+qedu"
-#     driver.get(url=search_url)
-#     time.sleep(0.5)
-#     elems = driver.find_elements_by_css_selector(".yuRUbf [href]")
-#     links = [elem.get_attribute('href') for elem in elems]
-#     qedu_url = ""
-#     for link in links:
-#         print(link)
-#         if "http://qedu.org.br/escola/" in link:
-#             qedu_url = link
-#             if "/sobre" in link:
-#                 return qedu_url
-#             if "/censo-escolar" in link:
-#                 return qedu_url
-#         if "http://www.qedu.org.br/escola/" in link:
-#             qedu_url = link
-#             if "/sobre" in link:
-#                 return qedu_url
-#             if "/censo-escolar" in link:
-#                 return qedu_url
-#         if "https://www.qedu.org.br/escola/" in link:
-#             qedu_url = link
-#             if "/sobre" in link:
-#                 return qedu_url
-#             if "/censo-escolar" in link:
-#                 return qedu_url
-#         if "https://qedu.org.br/escola/" in link:
-#             qedu_url = link
-#             if "/sobre" in link:
-#                 return qedu_url
-#             if "/censo-escolar" in link:
-#                 return qedu_url
-#
-#     return qedu_url
-# def acessoinep(escola,cidade):
-#     qedu_url = pesquisa_google_qedu(escola,cidade)
-#     if qedu_url != "":
-#         try:
-#             driver.get(url= qedu_url)
-#         except:
-#             inep = ""
-#             city = cidade
-#             qedu_url = "INVALIDO"
-#             return inep, city, qedu_url
-#         time.sleep(0.5)
-#         try:
-#             inep = driver.find_elements_by_xpath('//*[@class="table table-striped"]/tbody/tr/td')[0].text
-#         except IndexError:
-#             inep = ""
-#         try:
-#             city = driver.find_elements_by_xpath('//*[@class="subnav-title"]/ul/li [3]')[0].text
-#         except IndexError:
-#             city = cidade
-#         # CodigoInep = incategory.find_element_by_tag_name("tbody").find_element_by_tag_name("tr").find_element_by_tag_name("td")
-#     else:
-#         inep = ""
-#         city = cidade
-#     return inep, city, qedu_url
 PATH = "/Users/FernandoZanchitta/Documents/chromedriver"
 driver = webdriver.Chrome(PATH)
 input = input("Nome do Arquivo:\n")
 data = pd.read_csv('/Users/FernandoZanchitta/PycharmProjects/Pegasus de ford/%s.csv' % input)
 data.columns = [col.replace(' ', '_').lower() for col in data.columns]
+if "dominio_(url_do_site_da_escola)" in data.columns:
+    data.rename(columns={'dominio_(url_do_site_da_escola)': 'dominio'}, inplace=True)
 if "telefone" not in data.columns:
     data.insert(2, "telefone", "-")
-if "dominio_(url_do_site_da_escola)" not in data.columns:
-    data.insert(2, "dominio_(url_do_site_da_escola)", False)
+if "dominio" not in data.columns:
+    data.insert(2, "dominio", False)
+if "name" in data.columns:
+    data.rename(columns={'name': 'deal_name'}, inplace=True)
 for i in range(data['deal_name'].count()):
-    if data.loc[i, 'dominio_(url_do_site_da_escola)'] is False or pd.isna(data.loc[i, 'dominio_(url_do_site_da_escola)']):
-        data.loc[i, 'dominio_(url_do_site_da_escola)'], data.loc[i, 'telefone'] = pesquisagooglesitetelefone \
-            (driver, data.loc[i, 'deal_name'], data.loc[i, 'cidade'])
+    data.loc[i, 'cidade'] = " " if pd.isna(data.loc[i, 'cidade']) else data.loc[i, 'cidade']
+    print(data.loc[i, 'dominio'])
+    if data.loc[i, 'dominio'] == False or pd.isna(data.loc[i, 'dominio']):
+        data.loc[i, 'dominio'], data.loc[i, 'telefone'] = pesquisagooglesitetelefone(driver, data.loc[i, 'deal_name'], data.loc[i, 'cidade'])
 
 csvoutput = data.to_csv('/Users/FernandoZanchitta/PycharmProjects/Pegasus de ford/output/%s_site.csv' % input)
 data.insert(1, "inep", False)
