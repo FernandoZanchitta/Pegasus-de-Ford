@@ -103,6 +103,9 @@ def checarsistemaensino(driver, url,PATH):
     sistemaEnsino = ''
     bilingue = ''
     comunidade = ''
+    print(url)
+    if url == "":
+        return sistemaEnsino, bilingue, comunidade, driver
     try:
         driver.set_page_load_timeout(30)
         driver.get(url=url)

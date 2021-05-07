@@ -4,7 +4,7 @@ from scrapping import pesquisagooglesitetelefone
 from scrapping import acessoqedu
 from scrapping import exitdriver
 
-PATH = "/Users/FernandoZanchitta/Documents/chromedriver"
+PATH = "../chromedriver"
 
 driver = webdriver.Chrome(PATH)
 

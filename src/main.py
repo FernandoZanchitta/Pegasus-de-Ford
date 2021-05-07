@@ -24,7 +24,7 @@ print("Total de escolas encontradas: "+ str(len(y)))
 
 # Inicializando o Webdriver para começar o Scrapping
 
-PATH = "/Users/FernandoZanchitta/Documents/chromedriver"
+PATH = "../chromedriver"
 driver = webdriver.Chrome(PATH)
 driver.delete_all_cookies()
 
