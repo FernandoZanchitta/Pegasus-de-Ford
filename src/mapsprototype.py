@@ -54,7 +54,7 @@ def inserirnovaescola(driver,data, school_json,api_key,PATH):
     return data, driver
 
 def pesquisanextpage(next_page,api_key):
-    time.sleep(2)
+    time.sleep(0.5)
     url = '''
 https://maps.googleapis.com/maps/api/place/textsearch/json?
 pagetoken=%s&key=%s

@@ -36,6 +36,6 @@ for i in range((len(y))):
 # Formatação dos dados para Exportação.
 json_data = json.dumps(data).encode('utf8')
 pdObj = pandas.read_json(json_data, orient='index', encoding='utf8')
-pdObj = pandas.DataFrame.drop_duplicates(subset=['place_id'], keep='first', inplace=False)
+# pdObj = pandas.DataFrame.drop_duplicates(subset=['place_id'], keep='first', inplace=False)
 csvData = pdObj.to_csv('/Users/FernandoZanchitta/PycharmProjects/Pegasus de ford/output/%s.csv' % query, index=False)
 exitdriver(driver)

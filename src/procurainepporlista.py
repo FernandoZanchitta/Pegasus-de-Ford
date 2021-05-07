@@ -21,6 +21,7 @@ if "dominio" not in data.columns:
     data.insert(2, "dominio", False)
 if "name" in data.columns:
     data.rename(columns={'name': 'deal_name'}, inplace=True)
+
 for i in range(data['deal_name'].count()):
     if not pd.isna(data.loc[i,'cidade']):
         if data.loc[i, 'dominio'] == False or pd.isna(data.loc[i, 'dominio']):

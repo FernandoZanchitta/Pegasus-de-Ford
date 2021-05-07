@@ -104,7 +104,7 @@ def pesquisagooglesitetelefone(driver, escola, cidade):
 
 # Entra no url, e procura as palavras chave representando
 # os sistemas de ensino no Código Fonte da página
-def checarsistemaensino(driver, url,PATH):
+def checarsistemaensino(driver, url, PATH):
     sistemaEnsino = ''
     bilingue = ''
     comunidade = ''
