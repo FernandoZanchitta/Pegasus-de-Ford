@@ -17,9 +17,8 @@ if "dominio" not in data.columns:
 if "sistema_de_ensino" not in data.columns:
     if "sistema_de_ensino_encontrado" in data.columns:
         data.rename(columns={'sistema_de_ensino_encontrado': 'sistema_de_ensino'}, inplace=True)
-
-if "sistema_de_ensino" not in data.columns:
-    data.insert(2, "sistema_de_ensino", "-")
+    else:
+        data.insert(2, "sistema_de_ensino", "-")
 
 if "Escola é Blíngue?" not in data.columns:
     data.insert(3, "Escola é Blíngue?","-")

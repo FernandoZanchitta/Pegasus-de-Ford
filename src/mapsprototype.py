@@ -46,9 +46,6 @@ def inserirnovaescola(driver,data, school_json,api_key,PATH):
     data['formatted_address'] = school_json['formatted_address'] if 'formatted_address' in school_json else ''
     data['website'] = z['website'] if 'website' in z else ''
     data['formatted_phone_number'] = z['formatted_phone_number'] if 'formatted_phone_number' in z else ''
-    #print("Nome: "+ data['name'])
-    #print("Endereço completo: "+ data['formatted_address'])
-    #print("Cidade: "+ data['formatted_address'].split(",")[2])
     inep, cidade, qedu_url = acessoqedu(driver,data['name'],data['formatted_address'].split(",")[2].split("-")[0])
     data['Inep'] = inep
     data['city'] = cidade

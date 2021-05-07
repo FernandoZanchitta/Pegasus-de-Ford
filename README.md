@@ -27,7 +27,7 @@ de Webscrapping para encontrar o Resultado do Código Inep e Sistema de Ensino.
 
 Depois disso, pega o Json Gerado e armazena num csv na pasta output
 
-###Procura o Código Inep, telefone e site dada uma lista - procurainepporlista.
+### Procura o Código Inep, telefone e site dada uma lista - procurainepporlista.
 
 Habilita a entrada de listas prontas. Procura no google "Nome + cidade" e pega o primeiro link relacionado
 além de procurar o Telefone automático relacionado ao estabelecimento.

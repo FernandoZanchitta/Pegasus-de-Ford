@@ -112,7 +112,7 @@ def checarsistemaensino(driver, url,PATH):
     if url == "":
         return sistemaEnsino, bilingue, comunidade, driver
     try:
-        driver.set_page_load_timeout(40)
+        driver.set_page_load_timeout(45)
         driver.get(url=url)
     except TimeoutException:
         driver.close()
@@ -129,7 +129,7 @@ def checarsistemaensino(driver, url,PATH):
     textfoundPoli = re.search(
         r'poliedro|Poliedro|Ensino Poliedro|Sistema Poliedro|SISTEMA POLIEDRO|Portal Edros|Poliedro Sistema|p4ed',
         src)
-    textfoundBili = re.search(r'Ensino Bilíngue|bilíngue|Bilingue|BILINGUE|Internacional|Ensino de inglês', src)
+    textfoundBili = re.search(r'Education|Bilíngüe|Bilingual|Ensino Bilíngue|bilíngue|Bilingue|BILINGUE|Internacional|Ensino de inglês', src)
     textfoundBernou = re.search(r'Bernoulli|bernoulli|BERNOULLI', src)
     textfoundAri = re.search(r'Ari de Sá|ari de Sá|Ari de Sa|Plataforma SAS|Ensino SAS|portalsas.com.br|"SAS"',
                              src)
