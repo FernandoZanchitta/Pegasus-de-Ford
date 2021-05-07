@@ -4,6 +4,7 @@ from selenium.common.exceptions import TimeoutException
 from selenium import webdriver
 import re
 import time
+from pandas import isna
 
 
 # funçoes de Webscrapping
@@ -31,12 +32,17 @@ def acessoqedu(driver, escola, cidade):
 
 # chama uma Pesquisa do Google: "Nome da Escola + Cidade + 'qedu' "
 def pesquisagoogleqedu(driver, escola, cidade):
+
     escola = escola.replace(' ', '+')
-    cidade = cidade.replace(' ', '+')
-    query = escola + "+" + cidade
+    print(cidade)
+    if isna(cidade):
+        query = escola
+    else:
+        query = escola + "+" + cidade
     search_url = "https://www.google.com/search?q=" + query + "+qedu"
+
     driver.get(url=search_url)
-    time.sleep(1)
+    time.sleep(2)
     elems = driver.find_elements_by_css_selector(".yuRUbf [href]")
     links = [elem.get_attribute('href') for elem in elems]
     qedu_url = ""
@@ -72,14 +78,13 @@ def pesquisagoogleqedu(driver, escola, cidade):
 
 # chama uma Pesquisa do Google: "Nome da Escola + Cidade e Pega o primeiro Link e o Telefone
 def pesquisagooglesitetelefone(driver, escola, cidade):
-    try:
-        escola = escola.replace(' ', '+')
-        cidade = cidade.replace(' ', '+')
-    except:
-        telefone = ""
-        domain_url = ""
-        return domain_url, telefone
-    query = escola + "+" + cidade
+    escola = escola.replace(' ', '+')
+
+    if isna(cidade):
+        query = escola
+    else:
+        query = escola + "+" + cidade
+
     search_url = "https://www.google.com/search?q=" + query
     driver.get(url=search_url)
     time.sleep(1)
@@ -107,7 +112,7 @@ def checarsistemaensino(driver, url,PATH):
     if url == "":
         return sistemaEnsino, bilingue, comunidade, driver
     try:
-        driver.set_page_load_timeout(30)
+        driver.set_page_load_timeout(40)
         driver.get(url=url)
     except TimeoutException:
         driver.close()
@@ -118,6 +123,7 @@ def checarsistemaensino(driver, url,PATH):
         print("É Bilingue? " + bilingue)
         print("Comunidade: " + comunidade)
         driver = webdriver.Chrome(PATH)
+        time.sleep(1)
         return sistemaEnsino, bilingue, comunidade, driver
     src = driver.page_source
     textfoundPoli = re.search(
